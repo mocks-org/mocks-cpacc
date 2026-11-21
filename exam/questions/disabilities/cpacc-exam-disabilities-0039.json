@@ -1,0 +1,51 @@
+{
+	"id": "cpacc-exam-disabilities-0039",
+	"module": "disabilities",
+	"type": "single",
+	"stem": "A wheelchair is blocking an aisle in a meeting room. According to disability etiquette guidance, what should a colleague do?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Move the wheelchair aside so the aisle is clear, then tell the owner afterwards.",
+			"shortLabel": "Moved, then owner told",
+			"rationale": "Moving the equipment without permission interferes with the owner's independence, and telling them afterwards does not restore their control over it."
+		},
+		{
+			"id": "option-2",
+			"text": "Ask the owner whether it can be moved, and wait for the answer.",
+			"shortLabel": "Asked before moving",
+			"rationale": "Etiquette guidance is not to touch or move a person's mobility equipment without their permission; asking first leaves the decision with the owner."
+		},
+		{
+			"id": "option-3",
+			"text": "Ask the owner's companion to move the wheelchair out of the aisle.",
+			"shortLabel": "Companion moves it",
+			"rationale": "The owner, not a companion, decides whether and how their equipment is moved."
+		},
+		{
+			"id": "option-4",
+			"text": "Report the wheelchair as a hazard so staff can store it elsewhere.",
+			"shortLabel": "Staff store it as a hazard",
+			"rationale": "Removing the equipment to storage leaves the owner without it, and staff handling is not a substitute for the owner's permission."
+		}
+	],
+	"correctOptionId": "option-2",
+	"explanation": "Mobility equipment such as wheelchairs, walkers, and canes is treated as an extension of the person's body. Etiquette guidance is not to lean on, touch, or move a person's mobility device without their permission, so a colleague should ask the owner and accept their answer.",
+	"references": [
+		{
+			"kind": "publication",
+			"title": "United Spinal Association: Disability Etiquette Guide",
+			"author": "United Spinal Association",
+			"year": "2023",
+			"url": "https://unitedspinal.org/disability-etiquette/"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["disability-etiquette", "mobility-devices"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-30",
+	"sourceCheckedAt": "2026-11-19"
+}

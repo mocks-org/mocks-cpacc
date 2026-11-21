@@ -1,0 +1,51 @@
+{
+	"id": "cpacc-exam-disabilities-0037",
+	"module": "disabilities",
+	"type": "single",
+	"stem": "In educational settings, what characterizes multiple or complex disabilities?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "A combination of disabilities coexisting in the same person.",
+			"shortLabel": "More than one concurrent disability",
+			"rationale": "Multiple or complex disabilities involve more than one disability present at the same time, which can combine physical and mental impairments."
+		},
+		{
+			"id": "option-2",
+			"text": "A single impairment that limits functioning in one area, such as mobility or hearing.",
+			"shortLabel": "Single impairment in one area",
+			"rationale": "Multiple or complex disabilities involve more than one concurrent disability; a single impairment is a different category."
+		},
+		{
+			"id": "option-3",
+			"text": "A disability caused by a single event, such as an illness or an injury.",
+			"shortLabel": "Disability from a single event",
+			"rationale": "The category is defined by the number of concurrent disabilities, not by how or when the disability arose."
+		},
+		{
+			"id": "option-4",
+			"text": "A disability that a school can address with one type of accommodation.",
+			"shortLabel": "Addressed by one accommodation",
+			"rationale": "The category is defined by concurrent disabilities and the combined support needs they create, not by the number of accommodation types used."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "Multiple or complex disabilities occur when more than one disability is present in a person at the same time, whether physical, mental, or a combination of types. In education the category is used for students with the most profound disabilities, whose support needs cannot be met by accommodations designed for a single impairment.",
+	"references": [
+		{
+			"kind": "publication",
+			"title": "IAAP CPACC Body of Knowledge v4.0",
+			"author": "IAAP",
+			"year": "2025",
+			"url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["multiple-disabilities", "definitions"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-30",
+	"sourceCheckedAt": "2026-11-19"
+}

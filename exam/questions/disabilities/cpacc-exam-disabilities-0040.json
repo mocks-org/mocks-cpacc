@@ -1,0 +1,51 @@
+{
+	"id": "cpacc-exam-disabilities-0040",
+	"module": "disabilities",
+	"type": "single",
+	"stem": "Why do many autistic self-advocates and members of Deaf culture prefer identity-first language (such as 'autistic person') over person-first language?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Because they regard it as the terminology required in international human rights treaties.",
+			"shortLabel": "Required by human rights treaties",
+			"rationale": "The UN Convention on the Rights of Persons with Disabilities uses person-first language such as 'persons with disabilities', and no human rights treaty requires identity-first wording."
+		},
+		{
+			"id": "option-2",
+			"text": "Because they regard it as a clearer way to name the specific diagnosis.",
+			"shortLabel": "Clearer diagnosis naming",
+			"rationale": "Both forms name the same diagnosis; the preference is about identity, not about clarity of diagnosis."
+		},
+		{
+			"id": "option-3",
+			"text": "Because they regard disability as an inherent and valued part of who they are rather than a separate trait.",
+			"shortLabel": "Inherent part of identity",
+			"rationale": "Identity-first language presents disability as an integral and valued part of a person's identity rather than a detached trait."
+		},
+		{
+			"id": "option-4",
+			"text": "Because they regard person-first phrasing as suited to physical rather than cognitive disabilities.",
+			"shortLabel": "Suited to physical disability",
+			"rationale": "Person-first phrasing is used across disability types, including cognitive and mental health conditions, so it is not restricted to physical disabilities."
+		}
+	],
+	"correctOptionId": "option-3",
+	"explanation": "Person-first language is widely recommended to avoid defining a person by a disability, and it is the form used in the UN Convention on the Rights of Persons with Disabilities. Some self-advocates, including many autistic people and members of Deaf culture, prefer identity-first language because they experience disability as a positive and inseparable part of who they are. In direct communication, it is best to ask the person which form they prefer.",
+	"references": [
+		{
+			"kind": "publication",
+			"title": "IAAP CPACC Body of Knowledge v4.0",
+			"author": "IAAP",
+			"year": "2025",
+			"url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["disability-etiquette", "language-and-identity"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-30",
+	"sourceCheckedAt": "2026-11-19"
+}

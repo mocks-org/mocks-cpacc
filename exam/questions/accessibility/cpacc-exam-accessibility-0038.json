@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0038",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "How does an instructor provide multiple means of action and expression under the Universal Design for Learning (UDL) framework?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "By offering the same reading in audio, large print, and plain language.",
+			"shortLabel": "Multiple formats of the same reading",
+			"rationale": "Offering several formats is multiple means of representation; action and expression concerns how students show what they know."
+		},
+		{
+			"id": "option-2",
+			"text": "By letting students choose topics that connect to their own interests.",
+			"shortLabel": "Choice of topics tied to interests",
+			"rationale": "Choice of topic and relevance is multiple means of engagement, not action and expression."
+		},
+		{
+			"id": "option-3",
+			"text": "By building in frequent breaks and letting students set their own pace.",
+			"shortLabel": "Breaks and self-paced work",
+			"rationale": "Breaks and pace setting support sustained effort under engagement, not the means by which students express learning."
+		},
+		{
+			"id": "option-4",
+			"text": "By letting students show mastery through essays, podcasts, or posters.",
+			"shortLabel": "Allowing mastery demonstration through diverse media",
+			"rationale": "Action and expression focuses on the 'how' of learning, letting students use alternative expressive media to communicate what they know."
+		}
+	],
+	"correctOptionId": "option-4",
+	"explanation": "Multiple means of action and expression addresses how learners navigate tasks and express what they know. Providing varied options for response—such as speech, text, physical models, or multimedia presentations—ensures motor or communication impairments do not mask a student's true understanding.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "CAST: Design Multiple Means of Action & Expression",
+			"url": "https://udlguidelines.cast.org/action-expression"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["udl", "action-and-expression"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

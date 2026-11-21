@@ -1,0 +1,54 @@
+{
+	"id": "cpacc-exam-accessibility-0022",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "How can accessibility practices such as alternative text, headings, and transcripts benefit search engine optimization (SEO)?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Search engines give higher rankings to pages that publish an accessibility statement or badge.",
+			"shortLabel": "Accessibility statements raise rankings",
+			"rationale": "An accessibility statement documents conformance for users; search engines do not treat it as a ranking factor."
+		},
+		{
+			"id": "option-2",
+			"text": "Crawlers require a passing automated WCAG conformance audit before they will index a page.",
+			"shortLabel": "WCAG audit required for indexing",
+			"rationale": "Search engines index pages whether or not they meet WCAG; conformance is a W3C standard, not a crawler requirement."
+		},
+		{
+			"id": "option-3",
+			"text": "Crawlers rank pages by counting the number of ARIA attributes in the markup.",
+			"shortLabel": "ARIA attribute count raises rank",
+			"rationale": "ARIA attributes describe semantics to assistive technology; crawlers do not rank pages by counting them."
+		},
+		{
+			"id": "option-4",
+			"text": "They turn visual and multimedia content into text that crawlers can read and index.",
+			"shortLabel": "Text equivalents are indexable content",
+			"rationale": "Alternative text, headings, and transcripts give search engines readable text for content that images and media would otherwise hide."
+		}
+	],
+	"correctOptionId": "option-4",
+	"explanation": "Search engines index text. Alternative text, headings, and transcripts present the same content in a form that crawlers can read, so what makes a page accessible to assistive technology also makes it discoverable in search.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "WebAIM: Alternative Text",
+			"url": "https://webaim.org/techniques/alttext/"
+		},
+		{
+			"kind": "web",
+			"title": "Google Search Central: SEO Starter Guide",
+			"url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["business-case", "seo"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

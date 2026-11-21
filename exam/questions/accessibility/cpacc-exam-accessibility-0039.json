@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0039",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "A digital portal achieves zero errors on automated accessibility scans, yet users who rely on screen magnifiers find its complicated layout impossible to navigate. What does this demonstrate?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Automated scans check the requirements that matter most, and the rest are optional best practice.",
+			"shortLabel": "Scans cover the important requirements",
+			"rationale": "Automated tools can check only a subset of WCAG requirements; the criteria they cannot test are still required, not optional."
+		},
+		{
+			"id": "option-2",
+			"text": "Technical compliance with automated rules does not guarantee a usable experience.",
+			"shortLabel": "Technical compliance does not guarantee usability",
+			"rationale": "Automated tools check only a fraction of accessibility requirements and cannot evaluate human cognitive usability, task flow, or layout coherence."
+		},
+		{
+			"id": "option-3",
+			"text": "Screen magnifier users are not covered by WCAG, so their experience falls outside the scope of compliance.",
+			"shortLabel": "Magnifier users are outside WCAG",
+			"rationale": "WCAG applies to all web content users, including people who enlarge text or use screen magnifiers; its text-resizing criterion speaks directly to them."
+		},
+		{
+			"id": "option-4",
+			"text": "The scan result proves conformance, so the difficulty comes from the users' assistive technology.",
+			"shortLabel": "Blames the user's assistive technology",
+			"rationale": "A passing scan does not prove conformance; the barrier can sit in the layout and interaction design rather than in the user's software."
+		}
+	],
+	"correctOptionId": "option-2",
+	"explanation": "Accessibility compliance and usability are complementary but distinct concepts. A website can achieve a passing score on automated technical checklists while remaining confusing, clunky, or practically unusable for people with disabilities. Manual evaluation and functional testing with users are indispensable.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI: Involving Users in Evaluating Web Accessibility",
+			"url": "https://www.w3.org/WAI/test-evaluate/involving-users/"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["usability", "accessibility-testing"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

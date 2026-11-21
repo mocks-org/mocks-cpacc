@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0024",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "Why does WCAG 2.1 require alternative text for meaningful non-text elements such as photographs and informative diagrams?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Because the alternative text is displayed as a visible caption beneath each image.",
+			"shortLabel": "Alt text shown as a visible caption",
+			"rationale": "Captions are visible text added to the page; alternative text is exposed to assistive technology and is not displayed as a caption."
+		},
+		{
+			"id": "option-2",
+			"text": "Because WCAG applies text equivalents to images of text but not to photographs.",
+			"shortLabel": "Equivalents for images of text, not photos",
+			"rationale": "The requirement covers all meaningful non-text content, including photographs and diagrams, not only images of text."
+		},
+		{
+			"id": "option-3",
+			"text": "Because text can be converted into speech, braille, or enlarged print.",
+			"shortLabel": "Text renders across speech, braille, and print",
+			"rationale": "Text is universally adaptable; assistive technologies can convert text into speech, tactile braille, or magnified fonts."
+		},
+		{
+			"id": "option-4",
+			"text": "Because a text alternative lets the image be enlarged without pixelation.",
+			"shortLabel": "Alt text allows lossless enlargement",
+			"rationale": "Enlargement is handled by the image format or the browser, not by a text alternative."
+		}
+	],
+	"correctOptionId": "option-3",
+	"explanation": "Text is a flexible medium in information technology. A text alternative lets user agents present the same information as speech, braille, or enlarged text, so the content is available in whichever form the user needs.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "WCAG 2.1 Understanding Docs: Understanding SC 1.1.1 Non-text Content",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["wcag", "text-alternatives"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

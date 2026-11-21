@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0023",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "A commuter tries to read a mobile screen outdoors in bright sunlight and glare. Which digital accessibility practice directly improves usability in this situation?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "High contrast ratios between text and its background surfaces.",
+			"shortLabel": "High text-to-background contrast",
+			"rationale": "Strong contrast keeps text legible when glare washes out the screen, which helps anyone reading outdoors."
+		},
+		{
+			"id": "option-2",
+			"text": "Providing full audio descriptions for prerecorded graphic animations on the screen.",
+			"shortLabel": "Audio descriptions for animations",
+			"rationale": "Audio description conveys visual action to viewers who are blind or have low vision, but it does not make on-screen text easier to read in glare."
+		},
+		{
+			"id": "option-3",
+			"text": "Supporting external switch devices that emulate keyboard input.",
+			"shortLabel": "External switch device access",
+			"rationale": "Switch devices support people with severe motor limitations; they do not reduce glare on a screen."
+		},
+		{
+			"id": "option-4",
+			"text": "Writing instructions in plain language so the content is easier to understand.",
+			"shortLabel": "Plain-language instructions",
+			"rationale": "Plain language supports cognitive accessibility; it does not make text easier to see in bright sunlight."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "Digital accessibility features designed for permanent disabilities also benefit individuals experiencing temporary or situational limitations. High visual contrast between foreground text and backgrounds ensures that content remains readable in bright sunlight and outdoor glare.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI: Introduction to Web Accessibility",
+			"url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+		}
+	],
+	"images": [],
+	"difficulty": 1,
+	"tags": ["benefits-of-accessibility", "contrast"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

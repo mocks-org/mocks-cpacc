@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0029",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "A corporate website maintains its primary navigation bar, global search field, and footer links in the identical order and layout across every page. Which WCAG principle and requirement does this follow?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "The Understandable principle, under the requirement for consistent navigation.",
+			"shortLabel": "Understandable principle, consistent navigation",
+			"rationale": "Repeated navigation mechanisms must keep the same relative order, which is the consistent navigation requirement under the Understandable principle."
+		},
+		{
+			"id": "option-2",
+			"text": "The Understandable principle, under the requirement for consistent identification.",
+			"shortLabel": "Understandable principle, consistent identification",
+			"rationale": "Consistent identification concerns how repeated components are labelled, not the order in which they appear."
+		},
+		{
+			"id": "option-3",
+			"text": "The Perceivable principle, under the requirement for text resizing.",
+			"shortLabel": "Perceivable principle, text resizing",
+			"rationale": "Text resizing relates to visual scaling without loss of functionality, not global site structure."
+		},
+		{
+			"id": "option-4",
+			"text": "The Robust principle, under the requirement for name, role, and value.",
+			"shortLabel": "Robust principle, name-role-value",
+			"rationale": "Name, role, and value apply to the programmatic markup of controls, not page-to-page layout consistency."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "WCAG Success Criterion 3.2.3 (Consistent Navigation), under Guideline 3.2 Predictable and the Understandable principle, requires that navigation mechanisms repeated across multiple pages occur in the same relative order each time. This predictability benefits individuals with cognitive disabilities and users who rely on screen magnifiers.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "Web Content Accessibility Guidelines (WCAG) 2.1: Success Criterion 3.2.3 Consistent Navigation",
+			"url": "https://www.w3.org/TR/WCAG21/#consistent-navigation"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["wcag", "predictable"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

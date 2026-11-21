@@ -1,0 +1,54 @@
+{
+	"id": "cpacc-exam-accessibility-0027",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "What is the primary function of a 'skip to main content' link located at the top of a webpage?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "To hide the repeated navigation links from screen reader users.",
+			"shortLabel": "Hides navigation from screen readers",
+			"rationale": "A skip link does not hide or remove content; the navigation stays available in the accessibility tree and can still be read."
+		},
+		{
+			"id": "option-2",
+			"text": "To let keyboard users skip repeated navigation and reach the main content.",
+			"shortLabel": "Skips repeated navigation",
+			"rationale": "Skip links give keyboard and screen reader users a direct way past blocks of navigation that repeat on every page."
+		},
+		{
+			"id": "option-3",
+			"text": "To reorder the page's tab sequence so the main content comes before the navigation.",
+			"shortLabel": "Reorders the tab sequence",
+			"rationale": "The link moves focus when it is activated; it does not change the document order or the tab sequence that follows."
+		},
+		{
+			"id": "option-4",
+			"text": "To return users to the top of a long page once they have finished reading it.",
+			"shortLabel": "Returns users to the top",
+			"rationale": "Returning to the top is the job of a back-to-top link; this link sits at the top and moves focus forward into the content."
+		}
+	],
+	"correctOptionId": "option-2",
+	"explanation": "Repetitive navigation headers at the top of every page force keyboard and screen reader users to press the Tab key dozens of times before reaching new content. A 'skip to main content' link satisfies WCAG Success Criterion 2.4.1 (Bypass Blocks), under Guideline 2.4 Navigable, by moving focus past that repeated navigation.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "WebAIM: Keyboard Accessibility - Skip Navigation Links",
+			"url": "https://webaim.org/techniques/skipnav/"
+		},
+		{
+			"kind": "web",
+			"title": "WCAG 2.1 Understanding Docs: Understanding SC 2.4.1 Bypass Blocks",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["wcag", "navigation"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

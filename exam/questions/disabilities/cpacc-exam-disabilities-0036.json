@@ -1,0 +1,51 @@
+{
+	"id": "cpacc-exam-disabilities-0036",
+	"module": "disabilities",
+	"type": "single",
+	"stem": "Which workplace accommodation is appropriate for an employee who experiences significant symptoms of generalized anxiety disorder?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Providing a sign language interpreter and captioning for the employee at team meetings.",
+			"shortLabel": "Interpreter and captioning",
+			"rationale": "Interpretation and captioning remove communication barriers for deaf and hard of hearing employees; anxiety symptoms do not create a need for either."
+		},
+		{
+			"id": "option-2",
+			"text": "Scheduling varied, fast-changing tasks to keep the day interesting.",
+			"shortLabel": "Unpredictable task bursts",
+			"rationale": "Varied, fast-changing schedules add unpredictability and reduce the employee's sense of control, which tends to increase anxiety rather than ease it."
+		},
+		{
+			"id": "option-3",
+			"text": "Providing written expectations and a quiet, predictable workspace.",
+			"shortLabel": "Written expectations and quiet workspace",
+			"rationale": "Clear priorities, organized schedules, and quiet environments minimize ambiguity and reduce anxiety triggers."
+		},
+		{
+			"id": "option-4",
+			"text": "Supplying a height-adjustable desk and an ergonomic office chair.",
+			"shortLabel": "Ergonomic desk and chair",
+			"rationale": "Ergonomic furniture addresses physical strain and posture, not the concentration and stress symptoms associated with anxiety."
+		}
+	],
+	"correctOptionId": "option-3",
+	"explanation": "Generalized anxiety disorder involves persistent anxiety that can interfere with concentration and daily tasks, and the Body of Knowledge notes that measures supporting people with cognitive disabilities often benefit people with psychological disabilities. Predictable structure, written instructions, and reduced distraction lower ambiguity and sensory load, while equipment aimed at sensory or physical barriers does not address anxiety.",
+	"references": [
+		{
+			"kind": "publication",
+			"title": "IAAP CPACC Body of Knowledge v4.0",
+			"author": "IAAP",
+			"year": "2025",
+			"url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["psychological-disabilities", "workplace-accommodations"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-30",
+	"sourceCheckedAt": "2026-11-19"
+}

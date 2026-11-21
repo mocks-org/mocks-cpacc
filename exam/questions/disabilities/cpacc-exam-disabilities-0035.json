@@ -1,0 +1,51 @@
+{
+	"id": "cpacc-exam-disabilities-0035",
+	"module": "disabilities",
+	"type": "single",
+	"stem": "A child communicates fluently and comfortably with family members at home, but is consistently unable to speak in the classroom setting due to severe anxiety. Which condition does this presentation reflect?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Organic dysarthria, resulting from neuromuscular damage to physical speech muscles",
+			"shortLabel": "Organic dysarthria",
+			"rationale": "Dysarthria involves muscle weakness or lack of physical control in the speech mechanism across all environments, not situation-specific speech absence."
+		},
+		{
+			"id": "option-2",
+			"text": "Receptive aphasia, resulting from brain injury affecting language comprehension",
+			"shortLabel": "Receptive aphasia",
+			"rationale": "Receptive aphasia impacts the comprehension of spoken or written language rather than the situational inhibition of verbal speech."
+		},
+		{
+			"id": "option-3",
+			"text": "Apraxia of speech, resulting from impaired neurological motor planning in the brain",
+			"shortLabel": "Apraxia of speech",
+			"rationale": "Apraxia involves motor programming difficulty when coordinating speech sounds, regardless of whether the person is at home or in public."
+		},
+		{
+			"id": "option-4",
+			"text": "Selective mutism, resulting from overwhelming anxiety in specific social environments",
+			"shortLabel": "Selective mutism",
+			"rationale": "Selective mutism is a psychological anxiety disorder characterized by an inability to speak in specific social situations despite being fully capable of speech in comfortable settings."
+		}
+	],
+	"correctOptionId": "option-4",
+	"explanation": "Selective mutism is categorized under psychogenic mutism. Unlike neurogenic speech conditions where physical or neurological damage prevents speech output everywhere, individuals with selective mutism understand language and speak normally in secure environments, but cannot speak in specific settings (such as school) due to high anxiety.",
+	"references": [
+		{
+			"kind": "publication",
+			"title": "IAAP CPACC Body of Knowledge v4.0",
+			"author": "IAAP",
+			"year": "2025",
+			"url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["speech-disabilities", "psychological-disabilities", "selective-mutism"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-01",
+	"sourceCheckedAt": "2026-11-19"
+}

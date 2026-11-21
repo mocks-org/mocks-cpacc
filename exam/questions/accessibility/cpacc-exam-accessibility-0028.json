@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0028",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "Why must interactive elements display a clear, noticeable visual focus indicator when navigated with a keyboard?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "To announce the focused control to screen reader users as they navigate.",
+			"shortLabel": "Announces focus to screen readers",
+			"rationale": "Assistive technology receives focus information from the browser's accessibility tree, not from the visible focus indicator."
+		},
+		{
+			"id": "option-2",
+			"text": "To mark the current page in the site's navigation menu.",
+			"shortLabel": "Marks the current page",
+			"rationale": "Current-page indication is a separate visual cue; it does not tell a keyboard user which control is ready for input."
+		},
+		{
+			"id": "option-3",
+			"text": "To show sighted keyboard users which control has focus.",
+			"shortLabel": "Shows which control has keyboard focus",
+			"rationale": "Sighted people who navigate by keyboard depend on a visible focus ring to know where they are on the screen."
+		},
+		{
+			"id": "option-4",
+			"text": "To satisfy the requirement that controls be reachable by keyboard.",
+			"shortLabel": "Satisfies keyboard reachability",
+			"rationale": "Reaching a control with the keyboard and seeing where focus is are separate requirements; a control can be reachable while its focus state is invisible."
+		}
+	],
+	"correctOptionId": "option-3",
+	"explanation": "Sighted keyboard users (including people with mobility disabilities, repetitive strain injuries, or motor tremors) rely on a visible focus indicator (such as an outline or ring) to see which element is active. WCAG Success Criterion 2.4.7 (Focus Visible) requires that the keyboard focus indicator be visible. Removing this outline leaves keyboard users unable to locate their position on the page.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "WCAG 2.1 Understanding Docs: Understanding SC 2.4.7",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["wcag", "keyboard-accessibility"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

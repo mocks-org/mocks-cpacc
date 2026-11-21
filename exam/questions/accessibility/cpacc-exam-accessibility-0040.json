@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0040",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "In User-Centered Design (UCD), why is it important to include people with disabilities throughout the iterative design process rather than only during post-launch testing?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "To establish statistically generalizable quantitative benchmarks across disability categories.",
+			"shortLabel": "Establish statistically generalizable benchmarks",
+			"rationale": "Iterative UCD relies primarily on qualitative feedback from small participant cohorts to discover usability friction; it does not produce statistically generalizable quantitative benchmarks across disability groups."
+		},
+		{
+			"id": "option-2",
+			"text": "To substitute for formal technical WCAG conformance audits by validating code through end-user task completion.",
+			"shortLabel": "Substitute for technical WCAG audits",
+			"rationale": "User testing evaluates functional usability and user experience, but it does not replace comprehensive technical code audits against published WCAG success criteria."
+		},
+		{
+			"id": "option-3",
+			"text": "To uncover fundamental architectural and workflow barriers early, when design modifications are substantially less costly and disruptive.",
+			"shortLabel": "Uncover barriers early when less costly",
+			"rationale": "User-Centered Design emphasizes early, iterative engagement with people with disabilities to address core design and interaction flaws before system architectures freeze, avoiding costly and complex late-stage retrofits."
+		},
+		{
+			"id": "option-4",
+			"text": "To obtain a formal regulatory exemption that shields the organization from accessibility compliance investigations.",
+			"shortLabel": "Obtain regulatory safe harbor exemption",
+			"rationale": "Involving users is an essential design practice, but it does not by itself satisfy accessibility requirements or exempt an organization from legal duties."
+		}
+	],
+	"correctOptionId": "option-3",
+	"explanation": "User-Centered Design (UCD) relies on continuous cycles of research, prototyping, and evaluation. Involving people with disabilities early and iteratively embodies the 'shift left' philosophy: discovering structural, architectural, and workflow barriers when they are inexpensive and simple to redesign. Testing only post-launch results in expensive, disruptive retrofits. Qualitative user testing also complements—but never replaces—technical WCAG code audits, and it does not satisfy legal accessibility duties on its own or produce statistically generalizable demographic data.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI: Involving Users in Web Projects for Better, Easier Accessibility",
+			"url": "https://www.w3.org/WAI/planning/involving-users/"
+		}
+	],
+	"images": [],
+	"difficulty": 4,
+	"tags": ["user-centered-design", "ux"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

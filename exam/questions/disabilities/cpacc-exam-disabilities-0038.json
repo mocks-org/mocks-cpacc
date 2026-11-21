@@ -1,0 +1,58 @@
+{
+	"id": "cpacc-exam-disabilities-0038",
+	"module": "disabilities",
+	"type": "single",
+	"stem": "Why do reported national disability prevalence statistics vary significantly across different countries?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "National surveys are carried out mainly in countries that have ratified the CRPD.",
+			"shortLabel": "Surveys follow CRPD ratification",
+			"rationale": "Censuses and national surveys are fielded in countries regardless of whether they have ratified the CRPD, so ratification cannot explain the differences."
+		},
+		{
+			"id": "option-2",
+			"text": "Countries differ in how they define disability and ask survey questions.",
+			"shortLabel": "Different definitions and survey methods",
+			"rationale": "Differences in how disability is defined in law and how survey questions are worded account for large differences in reported national rates."
+		},
+		{
+			"id": "option-3",
+			"text": "Most countries estimate prevalence from hospital admission records rather than population surveys.",
+			"shortLabel": "Hospital records as the source",
+			"rationale": "National prevalence figures usually come from population censuses and surveys, not from hospital admission records."
+		},
+		{
+			"id": "option-4",
+			"text": "Countries count disability benefit recipients as equal to the number of people with disabilities.",
+			"shortLabel": "Benefit recipients as prevalence",
+			"rationale": "Benefit receipt depends on eligibility rules and programme coverage, so it does not equal the number of people with disabilities."
+		}
+	],
+	"correctOptionId": "option-2",
+	"explanation": "There is no standardized way of measuring disability. Countries define disability differently in law, word survey questions differently, and set different thresholds for counting a person as disabled, so reported national rates are not directly comparable. Many people also have more than one disability, which makes them hard to place in a single category.",
+	"references": [
+		{
+			"kind": "publication",
+			"title": "IAAP CPACC Body of Knowledge v4.0",
+			"author": "IAAP",
+			"year": "2025",
+			"url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+		},
+		{
+			"kind": "publication",
+			"title": "WHO: World Report on Disability",
+			"author": "World Health Organization",
+			"year": "2011",
+			"url": "https://iris.who.int/handle/10665/44575"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["demographics", "data-trends"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-30",
+	"sourceCheckedAt": "2026-11-19"
+}

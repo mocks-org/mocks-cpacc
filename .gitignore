@@ -1,0 +1,4 @@
+# Local checkout of the app used by the validator. CI creates it too.
+# It never belongs in a commit.
+.mocks-app
+node_modules

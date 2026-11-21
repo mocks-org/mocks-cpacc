@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0025",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "What is the primary role of an audio description track in a multimedia video?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "To describe essential visual actions, expressions, and scene changes during pauses in dialogue.",
+			"shortLabel": "Describes visual actions during dialogue pauses",
+			"rationale": "Audio description inserts spoken narration of visual content into existing pauses in the primary audio track."
+		},
+		{
+			"id": "option-2",
+			"text": "To display synchronized written captions at the bottom of the video for deaf and hard-of-hearing viewers.",
+			"shortLabel": "Displays written captions at bottom",
+			"rationale": "Synchronized text on screen is closed captioning, not audio description."
+		},
+		{
+			"id": "option-3",
+			"text": "To amplify and clarify the existing dialogue and music for viewers with hearing loss.",
+			"shortLabel": "Amplifies dialogue for hearing loss",
+			"rationale": "Amplification and speech clarity help viewers hear the soundtrack; they do not convey visual information."
+		},
+		{
+			"id": "option-4",
+			"text": "To automatically translate foreign language spoken audio into another spoken language.",
+			"shortLabel": "Translates foreign spoken audio",
+			"rationale": "Language dubbing translates speech across languages, whereas audio description conveys visual information in the same language."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "Audio description (also referred to as described video) provides spoken narration of important visual details—such as actions, settings, facial expressions, and on-screen text—during pauses in spoken dialogue. This ensures individuals who are blind or have low vision receive equal narrative context.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "WCAG 2.1 Understanding Docs: Understanding SC 1.2.3",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["wcag", "multimedia"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

@@ -1,0 +1,51 @@
+{
+	"id": "cpacc-exam-disabilities-0034",
+	"module": "disabilities",
+	"type": "single",
+	"stem": "How can specialized wearable consumer devices, such as smartwatches, support individuals with active seizure disorders?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "By measuring blood oxygen saturation to predict the onset of a seizure.",
+			"shortLabel": "Blood oxygen monitoring to predict seizures",
+			"rationale": "Pulse oximetry measures blood oxygen; it does not predict when a seizure will begin."
+		},
+		{
+			"id": "option-2",
+			"text": "By delivering a mild electrical pulse through the wrist sensor pad to interrupt seizure activity.",
+			"shortLabel": "Electrical pulse to stop seizures",
+			"rationale": "Consumer smartwatches do not deliver therapeutic electrical stimulation; implanted devices such as vagus nerve stimulators are separate treatments."
+		},
+		{
+			"id": "option-3",
+			"text": "By placing a call to emergency services whenever the wearer's heart rate rises.",
+			"shortLabel": "Calls emergency services on heart rate rise",
+			"rationale": "Alerts go to designated contacts and are triggered by detected seizure activity, not by heart rate alone."
+		},
+		{
+			"id": "option-4",
+			"text": "By detecting abnormal convulsive motion patterns and transmitting automated emergency alerts.",
+			"shortLabel": "Detect convulsive motion and send alerts",
+			"rationale": "Smartwatches and dedicated seizure monitors use onboard motion sensors and algorithms to recognize repetitive convulsive patterns, such as tonic-clonic seizures, and send alert notifications with location details to caregivers."
+		}
+	],
+	"correctOptionId": "option-4",
+	"explanation": "Specialized wearable applications and smart monitors support individuals with seizure disorders by using onboard motion sensors (accelerometers) and physiological sensors to detect the repetitive, convulsive movements typical of generalized tonic-clonic seizures. Upon detection, the device initiates an automated alert containing the wearer's real-time GPS coordinates to designated emergency contacts or caregivers.",
+	"references": [
+		{
+			"kind": "publication",
+			"title": "IAAP CPACC Body of Knowledge v4.0",
+			"author": "IAAP",
+			"year": "2025",
+			"url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["seizure-disabilities", "assistive-technology"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-30",
+	"sourceCheckedAt": "2026-11-19"
+}

@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0037",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "In Universal Design for Learning (UDL), what is the instructional focus of providing multiple means of engagement?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Supporting learners' interest, persistence, and self-regulation.",
+			"shortLabel": "Interest, persistence, and self-regulation",
+			"rationale": "Engagement addresses the affective 'why' of learning: learners' interests, their persistence, and their capacity to manage their own learning."
+		},
+		{
+			"id": "option-2",
+			"text": "Presenting the same content through text, audio, and captioned video.",
+			"shortLabel": "Multiple formats for the same content",
+			"rationale": "Presenting content in several formats is multiple means of representation, not engagement."
+		},
+		{
+			"id": "option-3",
+			"text": "Letting students respond in speech, writing, or a recorded demonstration.",
+			"shortLabel": "Choice of response format",
+			"rationale": "Choosing how to express learning is multiple means of action and expression, not engagement."
+		},
+		{
+			"id": "option-4",
+			"text": "Connecting new material to what students already know.",
+			"shortLabel": "Connecting new material to prior knowledge",
+			"rationale": "Activating prior knowledge is multiple means of representation (building knowledge), not engagement."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "The engagement principle of Universal Design for Learning (UDL) focuses on the affective network of the brain—the 'why' of learning. Instructors support engagement by giving students choices in learning contexts, connecting tasks to personal interests, and developing self-regulation skills.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "CAST: Design Multiple Means of Engagement",
+			"url": "https://udlguidelines.cast.org/engagement"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["udl", "engagement"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

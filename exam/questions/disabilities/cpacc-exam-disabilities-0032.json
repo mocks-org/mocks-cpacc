@@ -1,0 +1,51 @@
+{
+	"id": "cpacc-exam-disabilities-0032",
+	"module": "disabilities",
+	"type": "single",
+	"stem": "According to the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5), which two core behavioral domains must be present to establish a diagnosis of Autism Spectrum Disorder (ASD)?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Intellectual disability combined with delayed language development",
+			"shortLabel": "Intellectual disability and language delay",
+			"rationale": "Intellectual disability and language delay often co-occur with autism, but autism can be present with or without intellectual disability and neither is a required domain."
+		},
+		{
+			"id": "option-2",
+			"text": "Persistent deficits in social communication and restricted, repetitive patterns of behavior",
+			"shortLabel": "Social communication deficits and repetitive behaviors",
+			"rationale": "The DSM-5 diagnostic framework requires both deficits in social communication and interaction across contexts, and restricted, repetitive patterns of behaviors, interests, or activities."
+		},
+		{
+			"id": "option-3",
+			"text": "Impaired working memory combined with attention deficits",
+			"shortLabel": "Working memory and attention deficits",
+			"rationale": "Working memory and attention difficulties are associated features or co-occurring conditions, not the two DSM-5 domains."
+		},
+		{
+			"id": "option-4",
+			"text": "Motor coordination difficulties combined with mathematical learning problems",
+			"shortLabel": "Motor coordination and math difficulties",
+			"rationale": "Motor and mathematical difficulties can co-occur with autism, but they are not diagnostic criteria."
+		}
+	],
+	"correctOptionId": "option-2",
+	"explanation": "The DSM-5 establishes two primary diagnostic pillars for Autism Spectrum Disorder (ASD): persistent deficits in social communication and social interaction across multiple contexts, alongside restricted, repetitive patterns of behavior, interests, or activities.",
+	"references": [
+		{
+			"kind": "publication",
+			"title": "IAAP CPACC Body of Knowledge v4.0",
+			"author": "IAAP",
+			"year": "2025",
+			"url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["cognitive-disabilities", "autism-spectrum-disorder"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-01",
+	"sourceCheckedAt": "2026-11-19"
+}

@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0031",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "Under the Robust principle of WCAG 2.1, why must custom interactive interface elements expose their programmatic name, role, and value?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "So the custom controls can be reached and operated with a keyboard alone.",
+			"shortLabel": "Makes controls keyboard operable",
+			"rationale": "Keyboard operability is a separate requirement; it does not tell assistive technology what a control is or what state it is in."
+		},
+		{
+			"id": "option-2",
+			"text": "So assistive technologies know each control's role and state.",
+			"shortLabel": "Enables assistive tools to identify role and state",
+			"rationale": "Assistive software requires programmatic names, roles, and states (values) to announce custom widgets accurately to users."
+		},
+		{
+			"id": "option-3",
+			"text": "To make the widget markup validate against the HTML specification.",
+			"shortLabel": "Passes HTML validation",
+			"rationale": "Markup validation checks syntax, not whether a custom control exposes a name, role, or state to assistive technology."
+		},
+		{
+			"id": "option-4",
+			"text": "To keep custom widgets rendering the same way across browsers.",
+			"shortLabel": "Ensures consistent browser rendering",
+			"rationale": "Consistent visual rendering is a design goal; programmatic names, roles, and values are exposed through accessibility APIs and ARIA instead."
+		}
+	],
+	"correctOptionId": "option-2",
+	"explanation": "Custom user interface components (such as sliders, accordions, and dialogs) built with custom scripts do not inherently convey their identity to assistive technologies. Success Criterion 4.1.2 (Name, Role, Value) requires developers to provide programmatic names, roles, and states so assistive technologies can interpret and operate them.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "WCAG 2.1 Understanding Docs: Understanding SC 4.1.2 Name, Role, Value",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["wcag", "robust"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

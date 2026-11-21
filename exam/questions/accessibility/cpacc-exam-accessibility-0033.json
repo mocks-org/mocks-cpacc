@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0033",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "Why do universal design and accessibility standards call for zero-step entrances and low beveled door thresholds?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Raised thresholds trip pedestrians and catch the front casters of wheelchairs.",
+			"shortLabel": "Thresholds trip walkers and block casters",
+			"rationale": "Even small raised thresholds can stop the front casters of a wheelchair abruptly and trip people who cannot easily lift their feet."
+		},
+		{
+			"id": "option-2",
+			"text": "So thresholds can be sealed tightly enough to keep out drafts and insects.",
+			"shortLabel": "Improves weather sealing",
+			"rationale": "Weather sealing depends on the door and frame assembly; a raised lip is not needed to keep drafts or insects out."
+		},
+		{
+			"id": "option-3",
+			"text": "So door frames can carry the weight of heavy fire-rated doors.",
+			"shortLabel": "Supports heavy door weight",
+			"rationale": "Load bearing is a structural matter for the frame and wall, unrelated to threshold height."
+		},
+		{
+			"id": "option-4",
+			"text": "So thresholds meet the fire-resistance rating required for corridor doors.",
+			"shortLabel": "Meets fire-resistance ratings",
+			"rationale": "Fire ratings apply to the door assembly as a whole and do not depend on a raised threshold."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "Raised door thresholds and single entrance steps create substantial barriers. They trip people who have difficulty lifting their feet and can abruptly stop the small front casters of wheelchairs, throwing the user forward. Flush or low beveled thresholds provide a seamless transition.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "The UD Project: Chapter 3: Entrances",
+			"url": "https://universaldesign.org/specifications/entrances"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["built-environment", "entrances"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

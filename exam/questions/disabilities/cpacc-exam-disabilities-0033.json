@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-disabilities-0033",
+	"module": "disabilities",
+	"type": "single",
+	"stem": "Why do unannounced session timeouts on web forms create significant barriers for people with cognitive disabilities?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "They need extra time to read, process prompts, and enter information without losing data.",
+			"shortLabel": "Need extra time to process forms",
+			"rationale": "Users with cognitive or learning disabilities often need extended time to comprehend instructions and complete complex inputs."
+		},
+		{
+			"id": "option-2",
+			"text": "They clear the saved progress in the browser's password manager and discard saved autofill data.",
+			"shortLabel": "Clears password manager and autofill",
+			"rationale": "A timeout ends the session; it does not erase credentials or autofill data stored by the browser."
+		},
+		{
+			"id": "option-3",
+			"text": "They shorten the allowed time limit after each incorrect field entry and after each pause.",
+			"shortLabel": "Shortens time after errors and pauses",
+			"rationale": "Time limits are set by the site's configuration, not shortened after individual errors or pauses."
+		},
+		{
+			"id": "option-4",
+			"text": "They lock the account after a single expiry, so restoring access requires a support call.",
+			"shortLabel": "Locks account after one expiry",
+			"rationale": "A timeout ends the session; it does not lock the account or require a support call to restore it."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "Individuals with cognitive, learning, or reading disabilities often require more time to comprehend written prompts, gather information, and input form data. Sudden session expirations that wipe out entered data cause stress and make completion impossible unless users can extend the time limit or resume saved work.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "WCAG 2.2 Understanding Docs: Understanding SC 2.2.6 Timeouts",
+			"url": "https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["cognitive-disabilities", "digital-accessibility"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-30",
+	"sourceCheckedAt": "2026-11-19"
+}

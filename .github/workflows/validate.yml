@@ -1,0 +1,104 @@
+name: Validate content pack
+
+# The pack owns the questions. Every check below runs the app's  own
+# `scripts/bank/*.ts` from a pinned app checkout, so a green build here
+# means the pack passes exactly the rules the app applies when it syncs the
+# pack.
+#
+# Setup for a fork of this pack (repository settings, not files):
+#   - MOCKS_APP_REPOSITORY (variable) is required: `<owner>/<app-repo>`, for
+#     example `mocks-org/mocks`. There is deliberately no
+#     implicit `<owner>/mocks` default.
+#   - MOCKS_APP_REF (variable, optional) pins the app commit whose schema and
+#     scripts are used. Defaults to the SHA below. Use a full commit SHA.
+#   - MOCKS_APP_TOKEN (secret) is required when the app repository is private:
+#     a PAT or GitHub App token with `contents: read` on the app repository.
+#     The default GITHUB_TOKEN only sees this repository.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Weekly reference-link check. GitHub disables scheduled workflows after
+    # ~60 days of repository inactivity silently, dispatch this workflow by
+    # hand if the checks have not run in a while.
+    - cron: "23 5 * * 1"
+
+permissions:
+  contents: read
+
+# A new push to a PR cancels the previous run instead of queueing stale checks.
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Bank schema, length audit, and links
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out the pack
+        uses: actions/checkout@v7
+
+      # Fail before git runs, with the setting name in the message. A raw
+      # checkout error ("not our ref", exit code 128) does not say which
+      # repository was requested or how to fix it.
+      - name: Check the app checkout settings
+        env:
+          APP_REPOSITORY: ${{ vars.MOCKS_APP_REPOSITORY }}
+          APP_TOKEN: ${{ secrets.MOCKS_APP_TOKEN }}
+        run: |
+          if [ -z "$APP_REPOSITORY" ]; then
+            echo "::error::Set the repository variable MOCKS_APP_REPOSITORY to <owner>/<app-repo>, for example mocks-org/mocks."
+            exit 1
+          fi
+          if [ -z "$APP_TOKEN" ]; then
+            echo "::warning::MOCKS_APP_TOKEN is empty. The app checkout will use GITHUB_TOKEN, which only works when the app repository is public."
+          fi
+
+      - name: Check out the app (validator and schema)
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ vars.MOCKS_APP_REPOSITORY }}
+          ref: ${{ vars.MOCKS_APP_REF || '2c2f1a4fbfa68f1252cba11362d07cd477c3a6e6' }}
+          token: ${{ secrets.MOCKS_APP_TOKEN || github.token }}
+          path: .mocks-app
+          persist-credentials: false
+
+      # This repository has no package.json, so the version cannot be read
+      # from it. Keep this at the major version the app declares.
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 12
+
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: pnpm
+          cache-dependency-path: .mocks-app/pnpm-lock.yaml
+
+      # Validation only needs zod. Skipping lifecycle scripts avoids building
+      # workerd/esbuild for a simple schema check.
+      - name: Install the validator dependencies
+        working-directory: .mocks-app
+        run: pnpm install --frozen-lockfile --ignore-scripts
+
+      # The pack root is passed explicitly so the scripts never fall back to
+      # the app checkout's own content/ directory.
+      - name: Validate the bank
+        run: node .mocks-app/scripts/bank/validate.ts .
+
+      # Informational: a length finding is fixed by rewriting an option, not
+      # by CI. `--strict` is available once the backlog is clear.
+      - name: Audit option lengths and answer cues
+        run: node .mocks-app/scripts/bank/length-audit.ts .
+
+      # Network checks belong on a schedule, not on every PR. A flaky host
+      # must not block a content change.
+      - name: Check reference links
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: node .mocks-app/scripts/bank/link-check.ts .

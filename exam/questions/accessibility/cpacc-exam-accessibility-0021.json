@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0021",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "What core objective unites the philosophies of universal design, inclusive design, and design for all?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Designing a separate, specialized product or service for each disability group and support need.",
+			"shortLabel": "Separate product per disability group",
+			"rationale": "All three approaches aim at mainstream usability for diverse people, not separate products for each disability group."
+		},
+		{
+			"id": "option-2",
+			"text": "Making mainstream products, environments, and services usable by the widest possible range of people.",
+			"shortLabel": "Usable by the widest range without adaptation",
+			"rationale": "All three movements share the fundamental premise of proactive, mainstream inclusion for diverse human abilities."
+		},
+		{
+			"id": "option-3",
+			"text": "Meeting the minimum legal accessibility requirements that apply to each jurisdiction and sector.",
+			"shortLabel": "Meeting legal accessibility minimums",
+			"rationale": "Legal requirements set a minimum that varies by jurisdiction; the shared objective is broader usability, not conformance with one law."
+		},
+		{
+			"id": "option-4",
+			"text": "Requiring each user to adapt the design to their own needs and preferences before first use.",
+			"shortLabel": "Users adapt the design themselves",
+			"rationale": "These approaches aim for usability without requiring individual adaptation; customization remains a fallback rather than the shared objective."
+		}
+	],
+	"correctOptionId": "option-2",
+	"explanation": "Universal design, inclusive design, and design for all share the central philosophy of designing mainstream environments, systems, and services so they are usable by as many people as possible without needing individual retrofits or specialized re-engineering.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "Disabled World: Universal Design",
+			"url": "https://www.disabled-world.com/assistivedevices/design/"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["inclusive-design", "universal-design"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

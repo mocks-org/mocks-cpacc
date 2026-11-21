@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-disabilities-0031",
+	"module": "disabilities",
+	"type": "single",
+	"stem": "Why can figurative language, idioms, and sarcasm present significant communication barriers for people on the autism spectrum?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "They require advanced vocabulary knowledge that is beyond the reading level of most autistic adults.",
+			"shortLabel": "Requires advanced vocabulary",
+			"rationale": "Figurative language can use simple words; the difficulty is non-literal meaning and social context, not vocabulary level."
+		},
+		{
+			"id": "option-2",
+			"text": "They depend on hearing subtle changes in vocal pitch and tones rather than on understanding the actual words.",
+			"shortLabel": "Depends on vocal pitch",
+			"rationale": "Written figurative language has no vocal pitch; the barrier is interpreting non-literal meaning."
+		},
+		{
+			"id": "option-3",
+			"text": "They are taught through formal instruction before they can be understood.",
+			"shortLabel": "Requires formal instruction",
+			"rationale": "Idioms and sarcasm are absorbed through everyday exposure to language, not through formal instruction."
+		},
+		{
+			"id": "option-4",
+			"text": "They rely on non-literal interpretation and social cues that autistic individuals may process very literally.",
+			"shortLabel": "Relies on non-literal social meaning",
+			"rationale": "People with autism often interpret language literally, which makes idioms and figurative sarcasm ambiguous or confusing."
+		}
+	],
+	"correctOptionId": "option-4",
+	"explanation": "Individuals with Autism Spectrum Disorder (ASD) often process communication literally. Metaphors, figurative expressions, idioms, and sarcasm can lead to misinterpretation; using clear, explicit, plain language improves comprehension.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "NHS: Autism - Signs and symptoms",
+			"url": "https://www.nhs.uk/conditions/autism/symptoms/"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["cognitive-disabilities", "autism-spectrum-disorder"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-30",
+	"sourceCheckedAt": "2026-11-19"
+}

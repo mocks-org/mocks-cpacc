@@ -1,0 +1,49 @@
+{
+	"id": "cpacc-exam-accessibility-0032",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "In physical accessibility standards, why are wheelchair ramps required to have gentle slopes (such as a maximum 1:12 ratio) and level intermediate landings?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "To give people using wheelchairs room to pass someone coming the other way.",
+			"shortLabel": "Allows two users to pass",
+			"rationale": "Passing room is set by clear-width requirements, not by slope limits or landings."
+		},
+		{
+			"id": "option-2",
+			"text": "To keep the ramp within the total length allowed by building codes.",
+			"shortLabel": "Fits within a code length limit",
+			"rationale": "The standards limit the rise of each run, not the total length; gentle slopes make a ramp longer."
+		},
+		{
+			"id": "option-3",
+			"text": "To keep the effort manageable and give users level places to rest.",
+			"shortLabel": "Keeps climbs manageable with rest stops",
+			"rationale": "Steep ramps are strenuous for manual wheelchair users, and intermediate landings give them level places to stop and rest."
+		},
+		{
+			"id": "option-4",
+			"text": "To slow users down before they reach a busy doorway.",
+			"shortLabel": "Slows users near doorways",
+			"rationale": "Ramp design aims to keep travel safe and manageable, not to slow people deliberately; a landing gives room to stop and manoeuvre."
+		}
+	],
+	"correctOptionId": "option-3",
+	"explanation": "Long ramps with many runs are strenuous for people using manual wheelchairs. A 1:12 maximum slope, with level landings at the top and bottom of each run, keeps the effort within range for many users and gives them places to rest; the Access Board recommends gentler slopes where space allows.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "U.S. Access board: Guide to the ADA Accessibility Standards",
+			"url": "https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ramps/"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["built-environment", "ramps"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}

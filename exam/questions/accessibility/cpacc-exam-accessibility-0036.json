@@ -1,0 +1,51 @@
+{
+	"id": "cpacc-exam-accessibility-0036",
+	"module": "accessibility",
+	"type": "single",
+	"stem": "An industrial machine places hazardous emergency shutdown levers behind protective transparent covers to prevent accidental activation. Which Universal Design principle does this practice fulfill?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Principle 1: Equitable Use.",
+			"shortLabel": "Equitable Use",
+			"rationale": "Equitable Use ensures equal access and non-stigmatizing use for all users."
+		},
+		{
+			"id": "option-2",
+			"text": "Principle 3: Simple and Intuitive Use.",
+			"shortLabel": "Simple and Intuitive Use",
+			"rationale": "Simple and Intuitive Use focuses on cognitive clarity and literacy levels."
+		},
+		{
+			"id": "option-3",
+			"text": "Principle 5: Tolerance for Error.",
+			"shortLabel": "Tolerance for Error",
+			"rationale": "Tolerance for Error requires that hazardous or accidental actions are minimized by shielding, isolating, or eliminating hazardous elements."
+		},
+		{
+			"id": "option-4",
+			"text": "Principle 6: Low Physical Effort.",
+			"shortLabel": "Low Physical Effort",
+			"rationale": "Low Physical Effort minimizes repetitive fatigue and operating forces."
+		}
+	],
+	"correctOptionId": "option-3",
+	"explanation": "Principle 5 (Tolerance for Error) minimizes hazards and the adverse consequences of accidental actions. Guidelines under this principle advise designers to arrange elements so that dangerous controls are shielded, isolated, or require conscious confirmation to activate.",
+	"references": [
+		{
+			"kind": "publication",
+			"title": "The Universal Design File",
+			"author": "Molly Follette Story, James L. Mueller, and Ronald L. Mace",
+			"year": "1998",
+			"url": "https://files.eric.ed.gov/fulltext/ED460554.pdf"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["universal-design", "tolerance-for-error"],
+	"status": "published",
+	"provenance": "authored",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-10-31",
+	"sourceCheckedAt": "2026-11-19"
+}
