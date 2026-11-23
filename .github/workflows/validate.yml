@@ -1,19 +1,24 @@
 name: Validate content pack
 
-# The pack owns the questions. Every check below runs the app's  own
-# `scripts/bank/*.ts` from a pinned app checkout, so a green build here
-# means the pack passes exactly the rules the app applies when it syncs the
-# pack.
+# The pack owns the questions. Every check below runs the app's own
+# `scripts/bank/*.ts` from a checkout of the app's default branch, so a green
+# build here means the pack passes the rules the app applies today.
 #
 # Setup for a fork of this pack (repository settings, not files):
 #   - MOCKS_APP_REPOSITORY (variable) is required: `<owner>/<app-repo>`, for
 #     example `mocks-org/mocks`. There is deliberately no
 #     implicit `<owner>/mocks` default.
-#   - MOCKS_APP_REF (variable, optional) pins the app commit whose schema and
-#     scripts are used. Defaults to the SHA below. Use a full commit SHA.
+#   - MOCKS_APP_REF (variable, optional) overrides the app commit, for example
+#     to reproduce an old result or to unblock a release. Use a full commit
+#     SHA. Without it the default branch is used.
 #   - MOCKS_APP_TOKEN (secret) is required when the app repository is private:
 #     a PAT or GitHub App token with `contents: read` on the app repository.
 #     The default GITHUB_TOKEN only sees this repository.
+#
+# There is no pinned SHA to maintain. The app repository tags no releases, and
+# `main` is protected, so it is the current set of rules a pack has to pass.
+# Every run records the app commit it used in the job summary, so a result is
+# still auditable after `main` moves on.
 on:
   pull_request:
   push:
@@ -42,27 +47,57 @@ jobs:
       - name: Check out the pack
         uses: actions/checkout@v7
 
-      # Fail before git runs, with the setting name in the message. A raw
-      # checkout error ("not our ref", exit code 128) does not say which
-      # repository was requested or how to fix it.
-      - name: Check the app checkout settings
+      # Resolve the app commit before checking it out. `actions/checkout`
+      # reports a missing commit as `remote error: upload-pack: not our ref
+      # <sha>` (exit code 128), which names neither the repository nor the
+      # setting to fix. Resolving here also gives the job summary the exact
+      # app commit the pack was checked against.
+      - name: Resolve the app checkout ref
+        id: app
         env:
           APP_REPOSITORY: ${{ vars.MOCKS_APP_REPOSITORY }}
-          APP_TOKEN: ${{ secrets.MOCKS_APP_TOKEN }}
+          APP_REF: ${{ vars.MOCKS_APP_REF }}
+          APP_TOKEN: ${{ secrets.MOCKS_APP_TOKEN || github.token }}
         run: |
+          set -euo pipefail
+
           if [ -z "$APP_REPOSITORY" ]; then
             echo "::error::Set the repository variable MOCKS_APP_REPOSITORY to <owner>/<app-repo>, for example mocks-org/mocks."
             exit 1
           fi
-          if [ -z "$APP_TOKEN" ]; then
-            echo "::warning::MOCKS_APP_TOKEN is empty. The app checkout will use GITHUB_TOKEN, which only works when the app repository is public."
+
+          api="https://api.github.com/repos/$APP_REPOSITORY"
+          headers=(
+            -H "Authorization: Bearer $APP_TOKEN"
+            -H "Accept: application/vnd.github.sha"
+          )
+
+          # `commits/HEAD` is the default branch, not a fixed commit, so the
+          # pack is checked against the rules the app applies today.
+          head=$(curl -sS --max-time 30 -f "${headers[@]}" "$api/commits/HEAD") || {
+            echo "::error::Cannot read $APP_REPOSITORY. Check MOCKS_APP_REPOSITORY, and set MOCKS_APP_TOKEN when the app repository is private."
+            exit 1
+          }
+
+          sha="$head"
+          if [ -n "$APP_REF" ]; then
+            if ! sha=$(curl -sS --max-time 30 -f "${headers[@]}" "$api/commits/$APP_REF"); then
+              sha="$head"
+              echo "::warning::MOCKS_APP_REF=$APP_REF does not resolve in $APP_REPOSITORY. Using the default branch at $head instead. Set it to a full commit SHA from that repository, or delete the variable to follow the default branch."
+            fi
+          fi
+
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+          echo "App checkout: \`$APP_REPOSITORY@$sha\`" >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "$APP_REF" ] && [ "$sha" != "$head" ]; then
+            echo "Pinned with MOCKS_APP_REF." >> "$GITHUB_STEP_SUMMARY"
           fi
 
       - name: Check out the app (validator and schema)
         uses: actions/checkout@v7
         with:
           repository: ${{ vars.MOCKS_APP_REPOSITORY }}
-          ref: ${{ vars.MOCKS_APP_REF || '2c2f1a4fbfa68f1252cba11362d07cd477c3a6e6' }}
+          ref: ${{ steps.app.outputs.sha }}
           token: ${{ secrets.MOCKS_APP_TOKEN || github.token }}
           path: .mocks-app
           persist-credentials: false

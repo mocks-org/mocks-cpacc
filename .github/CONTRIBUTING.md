@@ -40,7 +40,7 @@ node ../mocks/scripts/bank/link-check.ts .     # reference URLs (network)
 - Re-run it locally or manually before editing a citation CI could not verify.
 - `--strict` makes those failures fatal.
 
-CI runs `validate` and `length-audit` on every pull request, and `link-check` weekly. It checks out the app at a pinned commit into `.mocks-app/`, so a local app checkout is only needed for the commands above.
+CI runs `validate` and `length-audit` on every pull request, and `link-check` weekly. It checks out the app's default branch into `.mocks-app/` (set `MOCKS_APP_REF` to pin a commit), so a local app checkout is only needed for the commands above.
 
 Do not commit `.mocks-app/`. The checkout uses the `MOCKS_APP_REPOSITORY` variable and, for a private app repository, the `MOCKS_APP_TOKEN` secret.  
 See [CI setup](./README.md#ci-setup).

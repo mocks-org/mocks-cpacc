@@ -83,19 +83,19 @@ node ../mocks/scripts/bank/link-check.ts .   # network
 `link-check` fails on a 404/410 or a host that no longer resolves.  
 Timeouts and 5xx answers are retried and then reported as unverified without failing, so a blocked runner does not fail the weekly run, use `--strict` to make those fatal.
 
-CI runs the same checks at a pinned app commit (`.github/workflows/validate.yml`), so a local checkout is more of a convenience rather than required.
+CI runs the same checks against the app's default branch (`.github/workflows/validate.yml`), so a local checkout is more of a convenience rather than required.
 
 ## CI setup
 
 The workflow checks out the app to use its schema and validator. Configure the checkout on this repository, it is intentionally not guessed from the owner name.
 
-| Setting                | Kind     | Value                                                                 |
-| ---------------------- | -------- | --------------------------------------------------------------------- |
-| `MOCKS_APP_REPOSITORY` | variable | `<owner>/<app-repo>` (required)                                       |
-| `MOCKS_APP_REF`        | variable | full app commit SHA (optional -- defaults to the pin in the workflow) |
-| `MOCKS_APP_TOKEN`      | secret   | read access to the app repository (required for private repos)        |
+| Setting                | Kind     | Value                                                                  |
+| ---------------------- | -------- | ---------------------------------------------------------------------- |
+| `MOCKS_APP_REPOSITORY` | variable | `<owner>/<app-repo>` (required)                                        |
+| `MOCKS_APP_REF`        | variable | full app commit SHA (optional -- defaults to the app's default branch) |
+| `MOCKS_APP_TOKEN`      | secret   | read access to the app repository (required for private repos)         |
 
-- The optional ref is a **full commit SHA**, not a tag or branch.
+- The optional ref is a **full commit SHA**, not a tag or branch. Leave the variable unset to follow the app's default branch, which is the set of rules the app applies today. Set it only to reproduce an older result or to unblock a release against an app commit you trust.
 - The token only needs to read the app repository. A fine-grained PAT with **Contents: Read** on it, or a GitHub App installation token (the workflow's `GITHUB_TOKEN` cannot read another private repository).
 - Secrets are not passed to pull requests from forks. If this pack becomes public while the app stays private, external PRs cannot run this job. Make the app public or publish the schema before opening the pack.
 - There is no implicit `<owner>/<app-repo>` default. The official pack uses `mocks-org/mocks` as `MOCKS_APP_REPOSITORY`.
@@ -110,7 +110,7 @@ gh variable set MOCKS_APP_REF --repo <owner>/mocks-cpacc \
 gh secret set MOCKS_APP_TOKEN --repo <owner>/mocks-cpacc
 ```
 
-After moving the app pin, update `MOCKS_APP_REF` (or the fallback SHA in the workflow) in the same release cycle. The SHA must exist in the repository named by `MOCKS_APP_REPOSITORY`.
+The app commit each run used is printed in the job summary. A `MOCKS_APP_REF` that no longer resolves is reported as a warning and the run continues on the default branch, so a rewritten app history never blocks this repository. The SHA must exist in the repository named by `MOCKS_APP_REPOSITORY`.
 
 ## Licence
 
