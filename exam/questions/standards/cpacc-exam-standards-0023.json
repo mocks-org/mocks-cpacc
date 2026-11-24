@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-standards-0023",
+  "module": "standards",
+  "type": "single",
+  "stem": "A disability rights organization seeks to submit a communication to the UN Committee on the Rights of Persons with Disabilities on behalf of individuals alleging a CRPD violation. Under the Optional Protocol to the CRPD, which situation still allows the Committee to consider the communication admissible?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "The State Party has ratified the CRPD and submits periodic reports, but has not ratified the Optional Protocol.",
+      "shortLabel": "State ratified CRPD only",
+      "rationale": "Under Article 1(2) of the Optional Protocol, the Committee cannot receive any communication concerning a State Party to the Convention that is not also a party to the Optional Protocol."
+    },
+    {
+      "id": "option-2",
+      "text": "The communication is submitted anonymously to protect the alleged victims from retaliation by local authorities.",
+      "shortLabel": "Submitted anonymously for protection",
+      "rationale": "Under Article 2(a) of the Optional Protocol, the Committee must consider any anonymous communication inadmissible, even though communications may be brought on behalf of individuals and are handled confidentially with the State Party."
+    },
+    {
+      "id": "option-3",
+      "text": "The same matter is already being examined under another procedure of international investigation or settlement.",
+      "shortLabel": "Pending in another international forum",
+      "rationale": "Under Article 2(c) of the Optional Protocol, a communication is inadmissible if the same matter has already been examined by the Committee or is currently being examined under another international investigation or settlement procedure."
+    },
+    {
+      "id": "option-4",
+      "text": "Available domestic remedies have not been exhausted because national proceedings have been unreasonably prolonged.",
+      "shortLabel": "Domestic remedies unreasonably prolonged",
+      "rationale": "While Article 2(d) generally requires exhausting all available domestic remedies before petitioning the Committee, it explicitly exempts cases where domestic remedies are unreasonably prolonged or unlikely to bring effective relief."
+    }
+  ],
+  "correctOptionId": "option-4",
+  "explanation": "Under Article 1 of the Optional Protocol to the UN CRPD, the Committee on the Rights of Persons with Disabilities may consider communications submitted by or on behalf of individuals or groups only if the State Party concerned has ratified the Optional Protocol itself. Article 2 sets strict admissibility rules: communications are inadmissible if they are anonymous, under examination in another international procedure, or fail to exhaust domestic remedies—except where domestic proceedings are unreasonably prolonged or unlikely to bring effective relief.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "OHCHR: Optional Protocol to the Convention on the Rights of Persons with Disabilities",
+      "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/optional-protocol-convention-rights-persons-disabilities"
+    }
+  ],
+  "images": [],
+  "difficulty": 5,
+  "tags": ["international-conventions", "un-crpd", "optional-protocol"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}
