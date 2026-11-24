@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-accessibility-0047",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "A municipal library installs self-checkout stations with tilted displays for clear sightlines whether seated or standing, controls mounted within easy reach from either posture, and wide floor areas around the base for wheelchairs or personal assistants. Which of the 7 Principles of Universal Design do these features directly apply?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Principle 1: Equitable Use",
+      "shortLabel": "Principle 1: Equitable Use",
+      "rationale": "Principle 1 focuses on providing the same (or equivalent) means of use without segregating or stigmatizing users, ensuring equal privacy/security/safety, and making designs appealing to all—rather than physical sightlines, reach ranges, and maneuvering room."
+    },
+    {
+      "id": "option-2",
+      "text": "Principle 2: Flexibility in Use",
+      "shortLabel": "Principle 2: Flexibility in Use",
+      "rationale": "Principle 2 addresses accommodating individual preferences and abilities—such as offering choice in methods of use, supporting right- or left-handed access, facilitating precision, and adapting to user pace—rather than physical space, reach, and sightlines."
+    },
+    {
+      "id": "option-3",
+      "text": "Principle 6: Low Physical Effort",
+      "shortLabel": "Principle 6: Low Physical Effort",
+      "rationale": "Principle 6 focuses on maintaining a neutral body position, using reasonable operating forces, and minimizing repetitive or sustained physical effort—not seated/standing sightlines, reach placement, or clearance for assistive devices."
+    },
+    {
+      "id": "option-4",
+      "text": "Principle 7: Size and Space for Approach and Use",
+      "shortLabel": "Principle 7: Size and Space",
+      "rationale": "Principle 7 ensures appropriate size and space for approach, reach, manipulation, and use regardless of body size, posture, or mobility—explicitly covering clear sightlines (7a) and comfortable reach (7b) for seated or standing users, plus adequate room for assistive devices or personal assistance (7d)."
+    }
+  ],
+  "correctOptionId": "option-4",
+  "explanation": "Principle 7 (Size and Space for Approach and Use) ensures that environments and products provide adequate physical dimensions and clearance regardless of a user's body size, posture, or mobility. Its four guidelines specifically call for clear lines of sight (7a) and comfortable reach to all components (7b) for any seated or standing user, accommodating variations in hand and grip size (7c), and providing adequate space for assistive devices or personal assistance (7d).",
+  "references": [
+    {
+      "kind": "web",
+      "title": "Centre for Excellence in Universal Design (NDA): The 7 Principles",
+      "url": "https://universaldesign.ie/about-universal-design/the-7-principles"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["universal-design", "seven-principles", "built-environment"],
+  "status": "published",
+  "provenance": "llm_assisted",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}
