@@ -1,0 +1,51 @@
+{
+  "id": "cpacc-exam-disabilities-0047",
+  "module": "disabilities",
+  "type": "single",
+  "stem": "An employee with uncorrectable low vision experiences visual fatigue when reading text that is both very small and faint on a computer display. Which combination of tools and adjustments most directly addresses this barrier?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Screen magnification software and customizable high-contrast color settings",
+      "shortLabel": "Magnification and high contrast",
+      "rationale": "Individuals with low vision typically require enlarged display scales and high-contrast color combinations to read comfortably."
+    },
+    {
+      "id": "option-2",
+      "text": "A refreshable braille display and tactile indicators for physical controls",
+      "shortLabel": "Braille display and tactile indicators",
+      "rationale": "Tactile displays and braille are primarily utilized by individuals who are blind or deaf-blind rather than those utilizing residual low vision."
+    },
+    {
+      "id": "option-3",
+      "text": "A screen reader that announces menu commands and button labels",
+      "shortLabel": "Screen reader for menus and buttons",
+      "rationale": "Announcing menus and buttons supports navigation but does not enlarge or increase the contrast of the document text that causes the fatigue."
+    },
+    {
+      "id": "option-4",
+      "text": "Automated alt text descriptions for charts and images embedded in the documents",
+      "shortLabel": "Automated alt text for charts and images",
+      "rationale": "Alt text describes non-text content for non-visual access; it does not enlarge or increase the contrast of the body text."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Low vision refers to permanently reduced vision that cannot be corrected with standard lenses or surgery. People with low vision benefit most from screen magnification to enlarge text and graphical elements, combined with contrast adjustments to improve readability.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "IAAP CPACC Body of Knowledge v4.0",
+      "author": "IAAP",
+      "year": "2025",
+      "url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["visual-disabilities", "low-vision", "assistive-technology"],
+  "status": "published",
+  "provenance": "llm_assisted",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-21"
+}

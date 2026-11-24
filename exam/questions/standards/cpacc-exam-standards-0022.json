@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-standards-0022",
+  "module": "standards",
+  "type": "single",
+  "stem": "Which statement accurately describes a requirement of the European Union's Web Accessibility Directive (Directive (EU) 2016/2102)?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "It applies primarily to private-sector e-commerce platforms and banking services rather than public sector bodies.",
+      "shortLabel": "Applies primarily to private-sector services",
+      "rationale": "The Web Accessibility Directive applies to the websites and mobile apps of public sector bodies; private-sector products and services such as e-commerce and banking are covered by the complementary European Accessibility Act."
+    },
+    {
+      "id": "option-2",
+      "text": "It recognizes third-party accessibility overlays as compliant alternatives to fixing underlying code against EN 301 549.",
+      "shortLabel": "Accepts overlays instead of source fixes",
+      "rationale": "The European Commission states that overlays or tools that do not ensure the website itself meets EN 301 549 criteria are not an appropriate solution, and issues should be fixed at their source."
+    },
+    {
+      "id": "option-3",
+      "text": "It requires covered websites and mobile applications to provide an accessibility statement and a user feedback mechanism.",
+      "shortLabel": "Requires accessibility statement and feedback",
+      "rationale": "Under the Web Accessibility Directive, each covered public sector website and mobile app must publish an accessibility statement detailing non-accessible content and alternatives, alongside a feedback mechanism for users to report barriers."
+    },
+    {
+      "id": "option-4",
+      "text": "It requires Member States to report compliance monitoring results to the European Commission on an annual basis.",
+      "shortLabel": "Requires annual Member State reports",
+      "rationale": "Member States are required to monitor public sector websites and mobile apps regularly and submit monitoring and enforcement reports to the European Commission every three years, not annually."
+    }
+  ],
+  "correctOptionId": "option-3",
+  "explanation": "In force since December 2016, the EU Web Accessibility Directive (Directive (EU) 2016/2102) obliges public sector bodies to make their websites and mobile applications accessible, underpinned by the harmonised European standard EN 301 549. Covered organizations must publish an accessibility statement (listing non-accessible content, alternatives, and contact details) and offer a user feedback mechanism, while Member States monitor compliance and report to the European Commission every three years.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "European Commission: Web accessibility (Web Accessibility Directive)",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/web-accessibility"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["regional-legislation", "web-accessibility-directive", "en-301-549"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}

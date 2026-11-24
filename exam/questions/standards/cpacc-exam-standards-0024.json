@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-standards-0024",
+  "module": "standards",
+  "type": "single",
+  "stem": "In the Web Content Accessibility Guidelines (WCAG), what are the three levels of conformance used to categorize testable success criteria for the WCAG 2.2?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Level A, Level AA, and Level AAA",
+      "shortLabel": "Level A, Level AA, and Level AAA",
+      "rationale": "WCAG 2.2 organizes its testable success criteria into three conformance levels—A, AA, and AAA—where Level A represents the minimum baseline and Level AAA represents the highest level of accessibility."
+    },
+    {
+      "id": "option-2",
+      "text": "Tier 1, Tier 2, and Tier 3",
+      "shortLabel": "Tier 1, Tier 2, and Tier 3",
+      "rationale": "WCAG 2.2 does not use numbered tiers, its testable success criteria are categorized under Levels A, AA, and AAA."
+    },
+    {
+      "id": "option-3",
+      "text": "Bronze, Silver, and Gold",
+      "shortLabel": "Bronze, Silver, and Gold",
+      "rationale": "Bronze, Silver, and Gold are not WCAG conformance levels; WCAG 2.2 categorizes all testable success criteria under Levels A, AA, and AAA."
+    },
+    {
+      "id": "option-4",
+      "text": "Basic, Standard, and Full",
+      "shortLabel": "Basic, Standard, and Full",
+      "rationale": "WCAG 2.2 does not classify conformance using labels such as Basic, Standard, or Full; it defines conformance through Levels A, AA, and AAA."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "The Web Content Accessibility Guidelines (WCAG 2) are organized under four principles (perceivable, operable, understandable, and robust) and include testable success criteria that determine conformance at three levels: Level A, Level AA, and Level AAA. Most laws and accessibility policies worldwide (including EN 301 549 and Section 508) reference Level AA as the standard conformance target.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI: WCAG 2 Overview",
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+    }
+  ],
+  "images": [],
+  "difficulty": 1,
+  "tags": ["ict-standards", "wcag", "w3c"],
+  "status": "published",
+  "provenance": "llm_assisted",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}

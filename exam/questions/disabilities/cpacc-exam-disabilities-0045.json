@@ -1,0 +1,51 @@
+{
+  "id": "cpacc-exam-disabilities-0045",
+  "module": "disabilities",
+  "type": "single",
+  "stem": "A fundraising broadcast portrays individuals with disabilities as tragic victims who depend on public generosity. Why do accessibility advocates reject this approach?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "It requires recipients to prove the disability before receiving help.",
+      "shortLabel": "Requires proof of disability to work",
+      "rationale": "Requiring proof of disability reflects the medical model, which relies on diagnosis and verification of impairment before granting support.  The charity model responds to perceived misfortune and need."
+    },
+    {
+      "id": "option-2",
+      "text": "It gives public agencies the authority to decide who deserves assistance.",
+      "shortLabel": "Gives agencies authority over assistance",
+      "rationale": "The charity model relies on private benevolence rather than a public agency's eligibility determination."
+    },
+    {
+      "id": "option-3",
+      "text": "It channels donations into long-term structural reform instead of immediate relief.",
+      "shortLabel": "Channels donations into structural reform",
+      "rationale": "The charity model is criticized for the opposite: it focuses on short-term, immediate needs at the expense of comprehensive long-term solutions."
+    },
+    {
+      "id": "option-4",
+      "text": "It reinforces patronizing attitudes and treats people as objects of pity.",
+      "shortLabel": "Reinforces patronizing attitudes and pity",
+      "rationale": "The charity model fosters condescension, portrays disabled people as passive beneficiaries, and neglects systemic human rights."
+    }
+  ],
+  "correctOptionId": "option-4",
+  "explanation": "The charity model treats people with disabilities as objects of pity who require outside benevolence. Disability advocates reject this model because it is condescending, diminishes personal agency, and prioritizes short-term emotional appeals over legal rights and systemic inclusion.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "IAAP CPACC Body of Knowledge v4.0",
+      "author": "IAAP",
+      "year": "2025",
+      "url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["theoretical-models", "charity-model"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-21"
+}

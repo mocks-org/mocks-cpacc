@@ -1,0 +1,51 @@
+{
+  "id": "cpacc-exam-disabilities-0049",
+  "module": "disabilities",
+  "type": "single",
+  "stem": "An employee demonstrates normal sensitivity on standard hearing tests, yet has severe difficulty distinguishing and understanding spoken instructions in noisy open-office environments. Which condition is most consistent with this presentation?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Conductive hearing impairment",
+      "shortLabel": "Conductive hearing impairment",
+      "rationale": "Conductive hearing loss involves mechanical problems in the outer or middle ear that reduce measurable hearing sensitivity."
+    },
+    {
+      "id": "option-2",
+      "text": "Sensorineural hearing loss",
+      "shortLabel": "Sensorineural hearing loss",
+      "rationale": "Sensorineural hearing loss stems from inner ear or nerve damage that directly shows as measurable hearing loss on audiograms."
+    },
+    {
+      "id": "option-3",
+      "text": "Organic dysarthria",
+      "shortLabel": "Organic dysarthria",
+      "rationale": "Dysarthria affects motor speech articulation and muscle control rather than the processing of incoming speech."
+    },
+    {
+      "id": "option-4",
+      "text": "Central auditory processing disorder",
+      "shortLabel": "Central auditory processing disorder",
+      "rationale": "Auditory processing disorder is characterized by normal hearing thresholds coupled with the brain's inability to organize, analyze, and interpret auditory information."
+    }
+  ],
+  "correctOptionId": "option-4",
+  "explanation": "Central Auditory Processing Disorder (APD) is not caused by hearing loss in the ears. Instead, the ear detects sound normally, but the brain struggles to process, interpret, and filter auditory signals, particularly when background noise is present.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "IAAP CPACC Body of Knowledge v4.0",
+      "author": "IAAP",
+      "year": "2025",
+      "url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+    }
+  ],
+  "images": [],
+  "difficulty": 4,
+  "tags": ["auditory-disabilities", "auditory-processing-disorder"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-21"
+}

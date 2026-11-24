@@ -1,0 +1,51 @@
+{
+  "id": "cpacc-exam-disabilities-0048",
+  "module": "disabilities",
+  "type": "single",
+  "stem": "A public agency publishes written notices online as its only official communication. Why might some individuals who were born deaf still face comprehension barriers with this text?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Written notices omit phonetic pronunciation guides that individuals born deaf rely on to decode unfamiliar words.",
+      "shortLabel": "Lacks phonetic guides deaf readers rely on",
+      "rationale": "Phonetic notation does not aid comprehension for individuals born deaf, as they lack auditory familiarity with spoken phonemes."
+    },
+    {
+      "id": "option-2",
+      "text": "Written notices use abstract vocabulary that deaf readers do not encounter in sign language.",
+      "shortLabel": "Written vocabulary absent from sign language",
+      "rationale": "Sign languages express abstract concepts, so the barrier is the grammar and register of a second language, not missing vocabulary."
+    },
+    {
+      "id": "option-3",
+      "text": "Sign languages have distinct grammar, making written language a second language for native signers.",
+      "shortLabel": "Sign language grammar makes written text a second language",
+      "rationale": "For individuals born deaf, sign language is often their first language, and written language differs in syntax and phonetics."
+    },
+    {
+      "id": "option-4",
+      "text": "Sign languages lack a widely used written form, so native signers cannot use visual word recognition when reading a written language.",
+      "shortLabel": "No written form blocks visual word recognition",
+      "rationale": "Native signers can and do use visual and orthographic word recognition when reading; comprehension barriers stem from differing grammar and second-language syntax, not an inability to recognize written words."
+    }
+  ],
+  "correctOptionId": "option-3",
+  "explanation": "For many people who are born deaf, natural sign language is their first language. Because sign languages have distinct syntax and lack phonetic correlation with spoken or written words, written national languages represent a second language, making complex written text challenging to navigate without plain-language or sign-language support.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "IAAP CPACC Body of Knowledge v4.0",
+      "author": "IAAP",
+      "year": "2025",
+      "url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+    }
+  ],
+  "images": [],
+  "difficulty": 4,
+  "tags": ["auditory-disabilities", "deafness", "communication"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-21"
+}

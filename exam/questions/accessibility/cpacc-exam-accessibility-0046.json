@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-accessibility-0046",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "In CAST's Universal Design for Learning (UDL) Guidelines 3.0, several considerations sound as though they could belong to multiple principles. Which official consideration falls under Multiple Means of Action and Expression?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Illustrating through multiple media",
+      "shortLabel": "Illustrating through multiple media",
+      "rationale": "Although 'Use multiple media for communication' (Consideration 5.1) falls under Action and Expression, 'Illustrate through multiple media' (Consideration 2.5) belongs to Representation under Guideline 2 (Language & Symbols)."
+    },
+    {
+      "id": "option-2",
+      "text": "Offering action-oriented feedback",
+      "shortLabel": "Offering action-oriented feedback",
+      "rationale": "Despite containing the word 'action,' 'Offer action-oriented feedback' (Consideration 8.5) falls under Engagement (Guideline 8: Sustaining Effort & Persistence), not Action and Expression."
+    },
+    {
+      "id": "option-3",
+      "text": "Organizing information and resources",
+      "shortLabel": "Organizing information and resources",
+      "rationale": "'Organize information and resources' (Consideration 6.3) is an executive-function practice under Guideline 6 (Strategy Development), which belongs to Multiple Means of Action and Expression."
+    },
+    {
+      "id": "option-4",
+      "text": "Clarifying the meaning and purpose of goals",
+      "shortLabel": "Clarifying meaning and purpose of goals",
+      "rationale": "While 'Set meaningful goals' (Consideration 6.1) sits under Action and Expression, 'Clarify the meaning and purpose of goals' (Consideration 8.1) falls under Engagement (Guideline 8: Sustaining Effort & Persistence)."
+    }
+  ],
+  "correctOptionId": "option-3",
+  "explanation": "In CAST's UDL Guidelines 3.0, each of the three principles spans Access, Support, and Executive Function rows. 'Organize information and resources' (Consideration 6.3) belongs to Guideline 6 (Strategy Development) under Multiple Means of Action and Expression because it supports learners' strategic planning and executive functioning. By contrast, 'Illustrate through multiple media' (2.5) belongs to Representation, while 'Clarify the meaning and purpose of goals' (8.1) and 'Offer action-oriented feedback' (8.5) belong to Engagement.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "CAST: Universal Design for Learning Guidelines (Version 3.0)",
+      "url": "https://udlguidelines.cast.org/"
+    }
+  ],
+  "images": [],
+  "difficulty": 5,
+  "tags": ["universal-design", "universal-design-for-learning", "udl"],
+  "status": "published",
+  "provenance": "llm_assisted",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}

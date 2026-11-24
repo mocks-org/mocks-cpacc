@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-standards-0025",
+  "module": "standards",
+  "type": "single",
+  "stem": "A university is evaluating a new Learning Management System (LMS) that faculty use to build and publish online courses. When assessing conformance with the W3C Authoring Tool Accessibility Guidelines (ATAG 2.0), which two responsibilities must the system address?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Validating published student-facing course pages against WCAG, while exempting internal instructor editing interfaces from accessibility requirements.",
+      "shortLabel": "Validates output only, exempts editor",
+      "rationale": "ATAG 2.0 does not exempt editing interfaces; Part A specifically requires the authoring tool user interface itself to be accessible so instructors with disabilities can create and manage content."
+    },
+    {
+      "id": "option-2",
+      "text": "Ensuring the course-creation interface is accessible to instructors with disabilities, and assisting instructors in producing accessible course content.",
+      "shortLabel": "Accessible editor and accessible output",
+      "rationale": "ATAG 2.0 is divided into Part A (making the authoring tool itself accessible to authors with disabilities) and Part B (supporting and promoting the production of WCAG-conformant content)."
+    },
+    {
+      "id": "option-3",
+      "text": "Defining accessibility requirements for students' web browsers and media players, and standardizing how user agents render published course content.",
+      "shortLabel": "Governs browsers and media players",
+      "rationale": "Accessibility requirements for browsers, media players, and assistive-technology rendering belong to the User Agent Accessibility Guidelines (UAAG), not ATAG."
+    },
+    {
+      "id": "option-4",
+      "text": "Replacing WCAG conformance criteria on published course content, and shifting responsibility for content accessibility to end-user assistive technologies.",
+      "shortLabel": "Replaces WCAG via assistive technologies",
+      "rationale": "ATAG 2.0 complements rather than replaces WCAG; it explicitly references WCAG when setting requirements for web-based authoring interfaces and helping authors produce accessible content."
+    }
+  ],
+  "correctOptionId": "option-2",
+  "explanation": "The W3C Authoring Tool Accessibility Guidelines (ATAG 2.0) apply to software and services used to create web content, including Content Management Systems (CMS) and Learning Management Systems (LMS). ATAG has two core parts: Part A requires the authoring tool user interface itself to be accessible to authors with disabilities, and Part B requires the tool to enable, support, and promote the production of accessible, WCAG-conformant content.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI: Authoring Tool Accessibility Guidelines (ATAG) Overview",
+      "url": "https://www.w3.org/WAI/standards-guidelines/atag/"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["ict-standards", "atag", "w3c"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}

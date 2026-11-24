@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-accessibility-0044",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "In the Web Content Accessibility Guidelines (WCAG), web accessibility is built on four foundational principles commonly abbreviated as POUR. Which set lists those four official principles?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Perceivable, Operable, Understandable, and Robust",
+      "shortLabel": "Perceivable, Operable, Understandable, Robust",
+      "rationale": "WCAG defines four foundational principles of accessibility: content and UI must be Perceivable, Operable, Understandable, and Robust."
+    },
+    {
+      "id": "option-2",
+      "text": "Predictable, Observable, Usable, and Responsive",
+      "shortLabel": "Predictable, Observable, Usable, Responsive",
+      "rationale": "While predictability is a WCAG guideline under Understandable, Observable, Usable, and Responsive are not the official WCAG accessibility principles."
+    },
+    {
+      "id": "option-3",
+      "text": "Practical, Open, Universal, and Reliable",
+      "shortLabel": "Practical, Open, Universal, Reliable",
+      "rationale": "Practical, Open, Universal, and Reliable describe general design goals rather than the four official WCAG accessibility principles."
+    },
+    {
+      "id": "option-4",
+      "text": "Portable, Organized, Uniform, and Readable",
+      "shortLabel": "Portable, Organized, Uniform, Readable",
+      "rationale": "Readable is a WCAG guideline under the Understandable principle, not a top-level principle; Portable, Organized, and Uniform are not official WCAG principles."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Domain Two of the CPACC Body of Knowledge highlights WCAG's four foundational accessibility principles (POUR): Perceivable (information and UI components must be presented in ways users can perceive), Operable (UI components and navigation must be operable by all users), Understandable (information and UI operation must be clear), and Robust (content must be reliably interpreted by current and future user agents, including assistive technologies).",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI: Accessibility Principles",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-principles/"
+    }
+  ],
+  "images": [],
+  "difficulty": 1,
+  "tags": ["accessibility-principles", "wcag", "pour"],
+  "status": "published",
+  "provenance": "llm_assisted",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}

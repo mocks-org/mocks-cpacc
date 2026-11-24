@@ -1,0 +1,51 @@
+{
+  "id": "cpacc-exam-disabilities-0046",
+  "module": "disabilities",
+  "type": "single",
+  "stem": "A public dashboard uses red circles and green circles as the only method to distinguish between failed and passing tests. Which group experiences the most direct barrier from this design choice?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Individuals who have tritanopia.",
+      "shortLabel": "Tritanopia",
+      "rationale": "Tritanopia is a blue-yellow color vision deficiency affecting blue and yellow discrimination; red and green remain distinguishable."
+    },
+    {
+      "id": "option-2",
+      "text": "Individuals who have deuteranopia or protanopia.",
+      "shortLabel": "Deuteranopia or protanopia",
+      "rationale": "Deuteranopia and protanopia are forms of red-green color vision deficiency that impair the ability to differentiate red and green shades, making identical shapes indistinguishable if color is the sole indicator."
+    },
+    {
+      "id": "option-3",
+      "text": "Individuals who have amblyopia.",
+      "shortLabel": "Amblyopia",
+      "rationale": "Amblyopia reduces visual acuity (typically in one eye) but does not impair cone-mediated hue perception, so red and green remain distinguishable."
+    },
+    {
+      "id": "option-4",
+      "text": "Individuals who have hemianopia.",
+      "shortLabel": "Hemianopia",
+      "rationale": "Hemianopia causes loss of half of the visual field, narrowing the visible area while leaving red and green color discrimination intact within the remaining field."
+    }
+  ],
+  "correctOptionId": "option-2",
+  "explanation": "Red-green color vision deficiency is the most common form of color vision deficiency. When color alone is used to convey critical information, individuals with this condition cannot distinguish status indicators unless redundant cues such as text labels or distinct icons are added.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "IAAP CPACC Body of Knowledge v4.0",
+      "author": "IAAP",
+      "year": "2025",
+      "url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["visual-disabilities", "color-vision-deficiency"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-21"
+}

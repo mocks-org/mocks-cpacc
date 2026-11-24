@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-accessibility-0042",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "To support learners with diverse motor, language, and communication needs, an instructor lets students complete a final project by submitting a written essay, creating an annotated diagram, or recording a spoken presentation. Which Universal Design for Learning (UDL) principle does this practice primarily illustrate?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Multiple Means of Representation",
+      "shortLabel": "Multiple Means of Representation",
+      "rationale": "Multiple Means of Representation focuses on how instructional content and information are presented and perceived by learners, rather than how learners produce and express their own work."
+    },
+    {
+      "id": "option-2",
+      "text": "Multiple Means of Action and Expression",
+      "shortLabel": "Multiple Means of Action and Expression",
+      "rationale": "Multiple Means of Action and Expression addresses how learners interact with the environment and demonstrate what they know, including varying response methods and using multiple media and tools for communication."
+    },
+    {
+      "id": "option-3",
+      "text": "Multiple Means of Engagement",
+      "shortLabel": "Multiple Means of Engagement",
+      "rationale": "Multiple Means of Engagement centers on motivating learners, welcoming their interests and identities, sustaining effort and persistence, and supporting emotional capacity."
+    },
+    {
+      "id": "option-4",
+      "text": "Multiple Means of Assessment",
+      "shortLabel": "Multiple Means of Assessment",
+      "rationale": "Multiple Means of Assessment is not one of the three CAST UDL principles. Flexible ways for learners to demonstrate knowledge fall under Multiple Means of Action and Expression."
+    }
+  ],
+  "correctOptionId": "option-2",
+  "explanation": "CAST's Universal Design for Learning (UDL) framework is built around three core principles: Multiple Means of Engagement, Multiple Means of Representation, and Multiple Means of Action and Expression. Allowing learners to demonstrate mastery through different formats—such as written text, visual diagrams, or spoken recordings—directly applies Multiple Means of Action and Expression by varying response methods and supporting multiple media for communication.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "CAST: Universal Design for Learning Guidelines",
+      "url": "https://udlguidelines.cast.org/"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["universal-design", "universal-design-for-learning", "udl"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}

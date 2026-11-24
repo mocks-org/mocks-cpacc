@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-accessibility-0050",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "A commercial enterprise declines to fund an accessibility program because finance leaders cannot isolate a short-term direct return on investment (ROI) and view accessibility mainly as compliance overhead. According to W3C WAI's Business Case for Digital Accessibility, which position accurately reflects the broader rationale for investment?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Commercial enterprises typically justify accessibility primarily through public-sector equity mandates, whereas government agencies focus mainly on market share expansion and brand differentiation.",
+      "shortLabel": "Reverses commercial and public drivers",
+      "rationale": "W3C WAI notes the opposite pattern: government agencies are often strongly motivated by legal and equity aspects, commercial businesses by innovation and market expansion, and educational/nonprofit organizations by brand enhancement."
+    },
+    {
+      "id": "option-2",
+      "text": "Corporate social responsibility and brand gains arise from customer-facing websites, making the accessibility of internal workplace applications largely irrelevant to organizational performance.",
+      "shortLabel": "Excludes internal workplace applications",
+      "rationale": "W3C WAI emphasizes that employing people with disabilities is essential to workforce diversity and colleague productivity, meaning internal websites and applications used by employees must also be accessible."
+    },
+    {
+      "id": "option-3",
+      "text": "Effective business cases pair tangible and intangible benefits—including innovation, brand strength, reduced maintenance costs, and expanded market reach—with the financial and legal risks of inaction.",
+      "shortLabel": "Combines broader value with risk of inaction",
+      "rationale": "W3C WAI explains that direct ROI is not the only valid metric: a sound business case combines tangible and intangible gains (innovation, brand enhancement, market reach, and lower ongoing maintenance costs) with the cost and legal risk of inaction."
+    },
+    {
+      "id": "option-4",
+      "text": "Retrofitting accessibility onto completed products reduces ongoing maintenance expenses and primarily serves a small, static group of consumers who identify as disabled.",
+      "shortLabel": "Claims retrofits cut costs for small market",
+      "rationale": "W3C WAI cites research showing cost savings occur when accessibility is integrated into existing and ongoing development cycles (not late retrofits) and notes a large, growing global market of over 1 billion people, including aging users who do not self-identify as disabled."
+    }
+  ],
+  "correctOptionId": "option-3",
+  "explanation": "W3C WAI's Business Case for Digital Accessibility emphasizes that although direct ROI can be difficult to isolate, organizations benefit across four interrelated pillars, driving innovation, enhancing brand/CSR and workforce diversity, expanding market reach (over 1 billion people globally plus aging populations and situational users), and minimizing legal risk. While integrating accessibility into ongoing development cycles lowers maintenance costs and avoids the steep financial and reputational costs of inaction.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI: The Business Case for Digital Accessibility",
+      "url": "https://www.w3.org/WAI/business-case/"
+    }
+  ],
+  "images": [],
+  "difficulty": 4,
+  "tags": ["benefits-of-accessibility", "business-case", "inclusive-design"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}

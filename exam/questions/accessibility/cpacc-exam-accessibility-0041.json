@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-accessibility-0041",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "In the 7 Principles of Universal Design developed by Ronald Mace and the Center for Universal Design, each principle is supported by specific design guidelines. Which guideline belongs to Principle 4 (Perceptible Information)?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Arrange information consistent with its importance.",
+      "shortLabel": "Arrange information by importance",
+      "rationale": "Arranging information consistent with its importance is Guideline 3d under Principle 3 (Simple and Intuitive Use) organizes content logically for comprehension rather than addressing sensory perception."
+    },
+    {
+      "id": "option-2",
+      "text": "Provide effective prompting and feedback during and after task completion.",
+      "shortLabel": "Prompting and feedback for tasks",
+      "rationale": "Providing effective prompting and feedback during and after task completion is Guideline 3e under Principle 3 (Simple and Intuitive Use), helping users understand task flow and status."
+    },
+    {
+      "id": "option-3",
+      "text": "Differentiate elements in ways that can be described when giving instructions.",
+      "shortLabel": "Differentiate elements for easy description",
+      "rationale": "Differentiating elements in ways that can be described (making it easy to give instructions or directions) is Guideline 4d under Principle 4 (Perceptible Information), ensuring elements do not rely on a single undiscriminable sensory cue such as color alone."
+    },
+    {
+      "id": "option-4",
+      "text": "Discourage unconscious action in tasks that require vigilance.",
+      "shortLabel": "Discourage unconscious action in tasks",
+      "rationale": "Discouraging unconscious action in tasks that require vigilance is Guideline 5d under Principle 5 (Tolerance for Error), which focuses on minimizing hazards and unintended actions."
+    }
+  ],
+  "correctOptionId": "option-3",
+  "explanation": "In the 7 Principles of Universal Design (NCSU, 1997), Principle 4 (Perceptible Information) ensures designs communicate essential information effectively regardless of ambient conditions or the user's sensory abilities. Its five guidelines (4a–4e) include using redundant sensory modes, providing adequate contrast, maximizing legibility, differentiating elements in ways that can be described (to make giving instructions or directions easy), and maintaining compatibility with assistive devices for sensory limitations. By contrast, arranging information by importance (3d) and providing prompting and feedback (3e) fall under Principle 3 (Simple and Intuitive Use), while discouraging unconscious action (5d) falls under Principle 5 (Tolerance for Error).",
+  "references": [
+    {
+      "kind": "web",
+      "title": "Centre for Excellence in Universal Design (NDA): The 7 Principles",
+      "url": "https://universaldesign.ie/about-universal-design/the-7-principles"
+    }
+  ],
+  "images": [],
+  "difficulty": 5,
+  "tags": ["universal-design", "seven-principles", "perceptible-information"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}
