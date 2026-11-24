@@ -1,0 +1,51 @@
+{
+  "id": "cpacc-exam-disabilities-0050",
+  "module": "disabilities",
+  "type": "single",
+  "stem": "A person with significant dual sensory loss (deaf-blindness) requires access to text from an online portal. Which assistive technology setup allows them to independently read the digital content?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "A screen reader transmitting text data to a refreshable braille display",
+      "shortLabel": "Screen reader with refreshable braille",
+      "rationale": "A screen reader coupled with a refreshable braille device translates on-screen digital text into mechanical braille cells that can be read by touch."
+    },
+    {
+      "id": "option-2",
+      "text": "A personal listening device that reads portal text aloud through an induction loop",
+      "shortLabel": "Listening device reading text aloud",
+      "rationale": "Audio output depends on usable hearing, which deaf-blind users cannot rely on for independent text access."
+    },
+    {
+      "id": "option-3",
+      "text": "A media player that displays portal text as synchronized open captions",
+      "shortLabel": "Media player with open captions",
+      "rationale": "Captions present text visually, which does not serve a reader with significant vision loss."
+    },
+    {
+      "id": "option-4",
+      "text": "A vibrotactile system that converts portal text into vibration patterns",
+      "shortLabel": "Vibrotactile text-to-vibration system",
+      "rationale": "Vibration patterns can signal events but cannot encode the full text of a document."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "For people who are deaf-blind, touch is often the primary channel for complex information exchange. Screen reader software can route textual and structural digital data directly to a refreshable braille display, enabling independent tactile reading.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "IAAP CPACC Body of Knowledge v4.0",
+      "author": "IAAP",
+      "year": "2025",
+      "url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["deaf-blindness", "assistive-technology", "braille"],
+  "status": "published",
+  "provenance": "llm_assisted",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-01",
+  "sourceCheckedAt": "2026-11-21"
+}
