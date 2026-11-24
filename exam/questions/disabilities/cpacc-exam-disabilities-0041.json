@@ -1,0 +1,51 @@
+{
+  "id": "cpacc-exam-disabilities-0041",
+  "module": "disabilities",
+  "type": "single",
+  "stem": "A university adds captions to all recorded lectures. According to the social model of disability, what is the rationale for this change?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "To help deaf students compensate for hearing loss so they can follow recorded lectures.",
+      "shortLabel": "Compensate for hearing loss",
+      "rationale": "Compensating for a sensory deficit is the medical model's approach, which treats the impairment as the problem; the social model locates the barrier in the lecture format."
+    },
+    {
+      "id": "option-2",
+      "text": "To remove the barrier that excludes deaf students from the same lecture content.",
+      "shortLabel": "Remove the barrier to lecture content",
+      "rationale": "The social model treats disability as created by environmental and social barriers, so the lecture format is changed rather than the student."
+    },
+    {
+      "id": "option-3",
+      "text": "To provide a benevolent service for students who would otherwise have to ask for help.",
+      "shortLabel": "Provide a benevolent service",
+      "rationale": "Framing access as benevolence reflects the charity model, which casts disabled people as passive recipients of goodwill."
+    },
+    {
+      "id": "option-4",
+      "text": "To improve graduation and employment rates among students with hearing loss.",
+      "shortLabel": "Improve graduation and employment rates",
+      "rationale": "Judging the change by graduation and employment outcomes reflects the economic model's focus on productivity and economic consequences."
+    }
+  ],
+  "correctOptionId": "option-2",
+  "explanation": "The social model of disability establishes that individuals are disabled by societal, architectural, and systemic barriers rather than by their functional differences. Captioning recorded lectures removes a communication barrier, enabling equal participation.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "IAAP CPACC Body of Knowledge v4.0",
+      "author": "IAAP",
+      "year": "2025",
+      "url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["theoretical-models", "social-model"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-21"
+}
