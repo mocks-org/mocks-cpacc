@@ -1,0 +1,53 @@
+{
+  "id": "cpacc-exam-accessibility-0043",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "A product team treats WCAG strictly as a technical coding checklist and runs user testing solely with nondisabled participants, yet users with disabilities still struggle to complete key workflows. According to W3C WAI, what best resolves this gap?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Prioritizing general usability heuristics over formal accessibility standards, because streamlined workflows naturally resolve assistive-technology barriers.",
+      "shortLabel": "Prioritize usability over standards",
+      "rationale": "W3C WAI notes that usability processes and user involvement alone cannot cover the full diversity of disabilities, adaptive strategies, and assistive technologies; technical accessibility standards remain essential."
+    },
+    {
+      "id": "option-2",
+      "text": "Broadening accessibility standards to target socioeconomic barriers such as hardware cost, low bandwidth, and general computer literacy.",
+      "shortLabel": "Expand standards to socioeconomic factors",
+      "rationale": "Broader factors such as hardware access, bandwidth, and literacy belong to inclusion (universal design / design for all); W3C WAI emphasizes keeping accessibility focused specifically on disability needs."
+    },
+    {
+      "id": "option-3",
+      "text": "Deferring evaluation with disabled users until final release, once developers have resolved all code-level conformance issues.",
+      "shortLabel": "Defer disabled-user testing until release",
+      "rationale": "W3C WAI stresses involving users with disabilities early and throughout the design process, noting that addressing accessibility barriers at later stages becomes increasingly difficult."
+    },
+    {
+      "id": "option-4",
+      "text": "Combining accessibility standards with usability practices while involving users with disabilities early and throughout the design process.",
+      "shortLabel": "Combine standards, usability, and user involvement",
+      "rationale": "W3C WAI defines this integrated approach—combining technical accessibility standards, usability methods, and ongoing involvement of people with disabilities—as 'usable accessibility' or accessible UX."
+    }
+  ],
+  "correctOptionId": "option-4",
+  "explanation": "According to W3C WAI, approaching WCAG solely as a technical checklist overlooks human interaction, while general usability testing often fails to account for assistive technologies and disability-specific needs. Achieving 'usable accessibility' (accessible UX) requires integrating accessibility standards with usability practices and involving people with disabilities early and continuously in design and evaluation—while keeping accessibility distinct from broader inclusion factors such as hardware affordability or connectivity.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI: Accessibility, Usability, and Inclusion",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": [
+    "accessibility-and-usability",
+    "usable-accessibility",
+    "inclusive-design"
+  ],
+  "status": "published",
+  "provenance": "llm_assisted",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}
