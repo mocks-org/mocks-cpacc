@@ -1,0 +1,53 @@
+{
+  "id": "cpacc-exam-accessibility-0049",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "A traveler in a quiet waiting room cannot play audio aloud and relies on captions to follow an online video. In W3C WAI's Introduction to Web Accessibility, which category of access need does this example illustrate?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "A temporary disability",
+      "shortLabel": "A temporary disability",
+      "rationale": "W3C WAI defines temporary disabilities as short-term medical or physical impairments—such as a broken arm or lost glasses—rather than environmental restrictions like being unable to play audio."
+    },
+    {
+      "id": "option-2",
+      "text": "A situational limitation",
+      "shortLabel": "A situational limitation",
+      "rationale": "W3C WAI specifically classifies being in bright sunlight or in an environment where a user cannot listen to audio as a 'situational limitation' that benefits from accessibility features such as captions."
+    },
+    {
+      "id": "option-3",
+      "text": "An age-related ability change",
+      "shortLabel": "An age-related ability change",
+      "rationale": "Age-related ability changes refer to gradual shifts in vision, hearing, or dexterity due to ageing, whereas an inability to play sound in a quiet space depends on the surrounding environment."
+    },
+    {
+      "id": "option-4",
+      "text": "A permanent auditory disability",
+      "shortLabel": "A permanent auditory disability",
+      "rationale": "While captions are essential for people who are deaf or hard of hearing, the scenario describes an environmental constraint in a quiet waiting room rather than an ongoing auditory impairment."
+    }
+  ],
+  "correctOptionId": "option-2",
+  "explanation": "Accessibility removes barriers for people with permanent disabilities while also benefiting people without disabilities in everyday contexts. W3C WAI highlights several overlapping groups who gain from accessible design: older people with changing abilities due to ageing, people with temporary disabilities (such as a broken arm or lost glasses), and people experiencing situational limitations—such as viewing a screen in bright sunlight or watching video in an environment where they cannot listen to audio.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI: Introduction to Web Accessibility",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+    }
+  ],
+  "images": [],
+  "difficulty": 1,
+  "tags": [
+    "accessibility-benefits",
+    "situational-limitations",
+    "inclusive-design"
+  ],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}
