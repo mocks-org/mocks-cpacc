@@ -1,0 +1,51 @@
+{
+  "id": "cpacc-exam-disabilities-0043",
+  "module": "disabilities",
+  "type": "single",
+  "stem": "Which consequence is recognized as a notable weakness of the economic model of disability when applied in public policy?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "It can stigmatize individuals by defining disability through inability to work.",
+      "shortLabel": "Stigmatizes by defining disability via inability to work",
+      "rationale": "By tying disability definitions solely to lost earning capacity and financial need, the economic model creates rigid thresholds that can stigmatize individuals as dependent."
+    },
+    {
+      "id": "option-2",
+      "text": "It measures state welfare spending while disregarding the employer's costs.",
+      "shortLabel": "Disregards employer costs",
+      "rationale": "The economic model counts consequences for the individual, the employer, and the state, including lower profit margins and welfare payments, so it does not disregard employer costs."
+    },
+    {
+      "id": "option-3",
+      "text": "It defines disability by the cost of medical treatment rather than by capacity to work.",
+      "shortLabel": "Defines disability by medical costs",
+      "rationale": "The economic model defines disability by inability to participate in work, not by the cost of medical treatment."
+    },
+    {
+      "id": "option-4",
+      "text": "It gives employers the authority to decide which impairments qualify for benefits.",
+      "shortLabel": "Gives employers benefit authority",
+      "rationale": "The model is used by policymakers to determine and assess disability benefits; it does not give employers that authority."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "A major weakness of the economic model of disability is that it creates legally defined categories of 'needy' individuals based strictly on their inability to work. This can be stigmatizing and can deny necessary accommodations to individuals who do not meet rigid bureaucratic thresholds.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "IAAP CPACC Body of Knowledge v4.0",
+      "author": "IAAP",
+      "year": "2025",
+      "url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["theoretical-models", "economic-model"],
+  "status": "published",
+  "provenance": "llm_assisted",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-21"
+}
