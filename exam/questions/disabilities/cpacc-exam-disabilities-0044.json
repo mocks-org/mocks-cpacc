@@ -1,0 +1,51 @@
+{
+  "id": "cpacc-exam-disabilities-0044",
+  "module": "disabilities",
+  "type": "single",
+  "stem": "Members of the Deaf community often consider deafness not as an impairment, but as a distinct linguistic and cultural heritage. Which theoretical model aligns with this viewpoint?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "The biopsychosocial model of disability",
+      "shortLabel": "Biopsychosocial model",
+      "rationale": "The biopsychosocial model evaluates health, psychological, and social interactions rather than linguistic pride."
+    },
+    {
+      "id": "option-2",
+      "text": "The functional solutions model of disability",
+      "shortLabel": "Functional solutions model",
+      "rationale": "The functional solutions model concentrates on technological interventions to overcome physical limitations."
+    },
+    {
+      "id": "option-3",
+      "text": "The social identity model of disability",
+      "shortLabel": "Social identity model",
+      "rationale": "The social identity or cultural affiliation model emphasizes pride, shared language, and collective community identity."
+    },
+    {
+      "id": "option-4",
+      "text": "The medical model of disability",
+      "shortLabel": "Medical model",
+      "rationale": "The medical model defines deafness as a physical pathology requiring medical cure or correction."
+    }
+  ],
+  "correctOptionId": "option-3",
+  "explanation": "The social identity or cultural affiliation model frames disability as a positive source of personal and collective identity. This model is prominent in Deaf culture, where shared sign language and communal bonds define membership rather than medical pathology.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "IAAP CPACC Body of Knowledge v4.0",
+      "author": "IAAP",
+      "year": "2025",
+      "url": "https://www.accessibilityassociation.org/sfsites/c/resource/CPACCBoK"
+    }
+  ],
+  "images": [],
+  "difficulty": 1,
+  "tags": ["theoretical-models", "social-identity-model"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-21"
+}
