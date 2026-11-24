@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-accessibility-0048",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "A regional transit authority designs its new stations with step-free level boarding, visual and audio departure boards, and tactile paving from the outset, while also maintaining an on-request process to supply specialized personal assistance or individualized adjustments when a passenger's needs go beyond standard station features. Under the UN CRPD definitions of universal design and reasonable accommodation, which statement best evaluates this two-part approach?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "It aligns with both concepts, because universal design minimizes the need for adaptation while still allowing assistive devices or case-specific accommodations where needed.",
+      "shortLabel": "Aligns with both UD and accommodations",
+      "rationale": "UN CRPD Article 2 defines universal design as designing products, environments, and services to be usable by all people to the greatest extent possible without adaptation, while explicitly stating it does not exclude assistive devices or case-specific reasonable accommodations when needed."
+    },
+    {
+      "id": "option-2",
+      "text": "It undermines universal design, because providing specialized assistive devices or individualized adjustments conflicts with the definition of designing for all people.",
+      "shortLabel": "Assistive support undermines universal design",
+      "rationale": "Article 2 explicitly states that universal design 'shall not exclude assistive devices for particular groups of persons with disabilities where this is needed,' so individualized support complements rather than contradicts universal design."
+    },
+    {
+      "id": "option-3",
+      "text": "It reverses both concepts, because reasonable accommodation covers proactive mass infrastructure while universal design applies to modifications needed in a particular case.",
+      "shortLabel": "Reverses proactive and case-specific roles",
+      "rationale": "The definitions work the other way around. Universal design focuses on proactive design for the broadest range of users without needing adaptation, whereas reasonable accommodation refers to necessary adjustments made 'where needed in a particular case.'"
+    },
+    {
+      "id": "option-4",
+      "text": "It treats individualized adjustments as discretionary customer service, because denying a reasonable accommodation does not constitute discrimination on the basis of disability.",
+      "shortLabel": "Denying accommodation is not discrimination",
+      "rationale": "UN CRPD Article 2 defines 'discrimination on the basis of disability' to include all forms of discrimination, explicitly specifying 'including denial of reasonable accommodation' (subject to disproportionate or undue burden limits)."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "In Domain Two of the CPACC Body of Knowledge (and UN CRPD Article 2), universal design is proactive, environments, products, and services are built from the start to be usable by as many people as possible without specialized adaptation. However, universal design does not eliminate every individual access need. Article 2 specifically affirms that it does not exclude assistive devices, and reasonable accommodations remain essential adjustments (not imposing a disproportionate or undue burden) in particular cases, whose denial constitutes disability discrimination.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "United Nations: CRPD Article 2 – Definitions",
+      "url": "https://social.desa.un.org/issues/disability/crpd/article-2-definitions"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["universal-design", "reasonable-accommodation", "un-crpd"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}
