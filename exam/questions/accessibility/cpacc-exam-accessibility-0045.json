@@ -1,0 +1,49 @@
+{
+  "id": "cpacc-exam-accessibility-0045",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "Under W3C WAI's Accessibility Principles (Perceivable, Operable, Understandable, and Robust), several requirements sit near the boundary between sensory presentation, user interaction, and comprehension. Which requirement falls under the Operable principle?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Structuring headings, lists, and tables so that information sequences remain independent of visual presentation.",
+      "shortLabel": "Presentation-independent content structure",
+      "rationale": "In W3C WAI's Accessibility Principles, marking up headings, lists, tables, and presentation-independent sequences falls under Perceivable ('Content can be presented in different ways'), not Operable."
+    },
+    {
+      "id": "option-2",
+      "text": "Avoiding content that flashes at risky rates and providing controls to switch off non-essential animations.",
+      "shortLabel": "Preventing seizures and pausing animations",
+      "rationale": "Although flashing and motion are visual, preventing seizures and physical reactions—including avoiding dangerous flash rates and letting users turn off non-essential animations—falls under the Operable principle."
+    },
+    {
+      "id": "option-3",
+      "text": "Placing navigation mechanisms that repeat across multiple pages in the same consistent location each time.",
+      "shortLabel": "Consistent placement of repeated navigation",
+      "rationale": "Even though it involves navigation menus, keeping repeated navigation mechanisms in the same location falls under Understandable ('Content appears and operates in predictable ways'), rather than Operable."
+    },
+    {
+      "id": "option-4",
+      "text": "Providing descriptive error messages along with an opportunity to review, correct, or reverse form submissions.",
+      "shortLabel": "Error messages and reversible submissions",
+      "rationale": "Helping users avoid and correct mistakes, including descriptive error messages and opportunities to review, correct, or reverse submissions falls under Understandable, not Operable."
+    }
+  ],
+  "correctOptionId": "option-2",
+  "explanation": "W3C WAI categorizes 'Content does not cause seizures and physical reactions', such as avoiding hazardous flashing rates and offering controls to disable non-essential animations under the Operable principle, because photosensitive triggers and motion discomfort prevent users from safely interacting with the interface. By contrast, presentation-independent structure belongs to Perceivable, while consistent navigation placement and error prevention/correction (including reversible submissions) belong to Understandable.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI: Accessibility Principles",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-principles/"
+    }
+  ],
+  "images": [],
+  "difficulty": 5,
+  "tags": ["accessibility-principles", "wcag", "operable"],
+  "status": "published",
+  "provenance": "authored",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24"
+}
