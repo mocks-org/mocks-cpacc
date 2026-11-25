@@ -30,7 +30,7 @@
     }
   ],
   "correctOptionId": "option-2",
-  "explanation": "CAST's Universal Design for Learning (UDL) framework is built around three core principles: Multiple Means of Engagement, Multiple Means of Representation, and Multiple Means of Action and Expression. Allowing learners to demonstrate mastery through different formats—such as written text, visual diagrams, or spoken recordings—directly applies Multiple Means of Action and Expression by varying response methods and supporting multiple media for communication.",
+  "explanation": "CAST's Universal Design for Learning (UDL) framework is built around three core principles. Multiple Means of Engagement, Multiple Means of Representation, and Multiple Means of Action and Expression. Allowing learners to demonstrate mastery through different formats, such as written text, visual diagrams, or spoken recordings, directly applies Multiple Means of Action and Expression.",
   "references": [
     {
       "kind": "web",
@@ -44,6 +44,6 @@
   "status": "published",
   "provenance": "authored",
   "reviewer": "Oxypteros",
-  "reviewedAt": "2026-11-24",
-  "sourceCheckedAt": "2026-11-24"
+  "reviewedAt": "2026-11-28",
+  "sourceCheckedAt": "2026-11-28"
 }
