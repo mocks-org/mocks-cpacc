@@ -81,7 +81,7 @@ The one-time prerequisites are the same ones the Mocks deploy walkthrough alread
 
 #### First time on the live site
 
-Assuming you already installed and seeded the pack in **[Local app](#local-app-your-machine)** above. Commit the pack files (`content/packs.json` and `content/cpacc/**`) and push them to the deployed database:
+Assuming you already installed and seeded the pack in **[Local app](#local-app-your-machine)** above. Commit the pack files (`content/packs.json` and `content/cpacc/**`) and seed deployed database:
 
 ```sh
 pnpm bank:seed:remote --exam cpacc
@@ -89,7 +89,7 @@ pnpm bank:seed:remote --exam cpacc
 
 #### Update the live site to the latest release
 
-First make sure you have [updated the pack locally](#update-to-the-latest-release) commit the pack files and re-seed the remote database:
+First make sure you have **[updated the pack locally](#update-to-the-latest-release)** commit the pack files and re-seed the remote database:
 
 ```sh
 pnpm bank:seed:remote --exam cpacc
