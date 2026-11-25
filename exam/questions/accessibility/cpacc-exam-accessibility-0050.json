@@ -18,7 +18,7 @@
     },
     {
       "id": "option-3",
-      "text": "Effective business cases pair tangible and intangible benefits—including innovation, brand strength, reduced maintenance costs, and expanded market reach—with the financial and legal risks of inaction.",
+      "text": "Effective business cases pair tangible and intangible benefits, including brand strength, reduced maintenance costs, and expanded market reach, with the financial and legal risks of inaction.",
       "shortLabel": "Combines broader value with risk of inaction",
       "rationale": "W3C WAI explains that direct ROI is not the only valid metric: a sound business case combines tangible and intangible gains (innovation, brand enhancement, market reach, and lower ongoing maintenance costs) with the cost and legal risk of inaction."
     },
@@ -44,6 +44,6 @@
   "status": "published",
   "provenance": "authored",
   "reviewer": "Oxypteros",
-  "reviewedAt": "2026-11-24",
-  "sourceCheckedAt": "2026-11-24"
+  "reviewedAt": "2026-11-28",
+  "sourceCheckedAt": "2026-11-28"
 }
