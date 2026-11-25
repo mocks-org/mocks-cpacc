@@ -5,7 +5,7 @@
     "id": "cpacc-exam",
     "kind": "exam",
     "title": "Mocks CPACC Exam Bank",
-    "version": "0.2.1-beta",
+    "version": "0.3.0-beta",
     "status": "published",
     "optionCount": 4
   },
