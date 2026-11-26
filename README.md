@@ -13,6 +13,8 @@ exam/
 └── questions/<module>/*.json  # one question per file
 LICENSE                        # CC BY-SA 4.0
 CONTRIBUTING.md                # how to report, write, and review a question
+CODE_OF_CONDUCT.md             # community conduct + inclusive-language rules
+ACCESSIBILITY.md               # what the content guarantees, and its limits
 ```
 
 | Field            | Value                                                       |
@@ -188,7 +190,15 @@ You do not need git to improve the bank. Pick the form that matches what you hav
 | Draft and validate a question without installing anything | [Authoring tool](https://mocks.oxypteros.com/author), then paste the export into either form              |
 | Send the change as code                                   | Fork, edit `exam/questions/<module>/`, run the validator, open a pull request                             |
 
-An issue is intake, not delivery: accepted reports are re-authored as JSON and merged by a maintainer, or by you if you open the pull request. The rules for modules, options, difficulty, tags, and review metadata are in [CONTRIBUTING.md](CONTRIBUTING.md).
+An issue is intake, not delivery. Accepted reports are re-authored as JSON and merged by a maintainer, or by you if you open the pull request. The rules for modules, options, difficulty, tags, and review metadata are in [CONTRIBUTING.md](CONTRIBUTING.md). Wording, terminology, and behaviour in this repository are governed by [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+## Security
+
+This repository ships content, not code. Report a vulnerability privately through the repository's **Security** tab, the policy, the in-scope list, and what is not a security issue are in [.github/SECURITY.md](.github/SECURITY.md). Do not open a public issue with a working payload or a live malicious URL.
+
+## Accessibility
+
+Every question is written to be usable when rendered by a player that targets WCAG 2.2 AA. What the bank guarantees, how it is checked, and where it falls short are in [ACCESSIBILITY.md](ACCESSIBILITY.md).
 
 ## Licence
 
