@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Try the questions first
+    url: https://mocks.oxypteros.com
+    about: Take the exam, then use the Question ID shown on the results screen in a fix report.
+  - name: Draft a question in the authoring tool
+    url: https://mocks.oxypteros.com/author
+    about: A client-only editor that validates a question and exports its JSON. Nothing is uploaded.
+  - name: App bugs, not content
+    url: https://github.com/mocks-org/mocks/issues
+    about: This repository holds questions only. Report rendering, scoring, or accessibility bugs in the app.

@@ -43,6 +43,7 @@
 	"tags": ["eu-directives", "eaa"],
 	"status": "published",
 	"provenance": "llm_assisted",
+	"author": "Oxypteros",
 	"reviewer": "Oxypteros",
 	"reviewedAt": "2026-10-31",
 	"sourceCheckedAt": "2026-11-05"

@@ -1,0 +1,151 @@
+name: Submit a new question
+description: Propose one question for one module.
+title: "[New] "
+labels: ["submission:new", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for adding to the bank. You do not need git or the app for this form.
+
+        One question per issue. Review metadata (reviewer, dates, status) is set later by whoever verifies the answer, so it is not asked here.
+
+        If you prefer a structured editor, draft the question at [mocks.oxypteros.com/author](https://mocks.oxypteros.com/author) and paste the exported JSON into the last field instead of filling the options by hand.
+  - type: dropdown
+    id: module
+    attributes:
+      label: Module
+      description: Pick the CPACC domain the question tests.
+      options:
+        - disabilities - Disabilities, Challenges, and Assistive Technologies
+        - accessibility - Accessibility and Universal Design
+        - standards - Standards, Laws, and Management Strategies
+    validations:
+      required: true
+  - type: textarea
+    id: stem
+    attributes:
+      label: Question stem
+      description: One clear question. Avoid "which is NOT" and other negative phrasing.
+      render: text
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        For each option, give the full text, a short label of 2 to 6 words, and why the option is right or wrong.
+  - type: textarea
+    id: option-1
+    attributes:
+      label: Option 1
+      value: |
+        Text:
+        Short label:
+        Why right or wrong:
+    validations:
+      required: true
+  - type: textarea
+    id: option-2
+    attributes:
+      label: Option 2
+      value: |
+        Text:
+        Short label:
+        Why right or wrong:
+    validations:
+      required: true
+  - type: textarea
+    id: option-3
+    attributes:
+      label: Option 3
+      value: |
+        Text:
+        Short label:
+        Why right or wrong:
+    validations:
+      required: true
+  - type: textarea
+    id: option-4
+    attributes:
+      label: Option 4
+      value: |
+        Text:
+        Short label:
+        Why right or wrong:
+    validations:
+      required: true
+  - type: dropdown
+    id: correct-option
+    attributes:
+      label: Which option is correct?
+      description: The app shuffles options, so only the content matters.
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation
+      description: A short lesson for every learner. Never say "option 2" or "answer 3".
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: One per line. A public URL, or author/publisher, title, and four-digit year.
+      placeholder: |
+        https://www.w3.org/WAI/WCAG22/Understanding/
+        United Nations, Convention on the Rights of Persons with Disabilities (2006)
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - 1 - recall a definition or a single fact
+        - 2 - recognise or apply a concept to a familiar example
+        - 3 - apply a concept to a scenario
+        - 4 - compare models or analyse a situation
+        - 5 - synthesise across modules or evaluate a trade-off
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Topic tags (optional)
+      description: 1 to 3 lowercase labels. Reuse an existing one when possible, for example wcag, universal-design, crpd.
+  - type: dropdown
+    id: provenance
+    attributes:
+      label: How was this written?
+      description: Recorded as provenance in the question file.
+      options:
+        - I wrote it myself
+        - I used an AI tool to draft it
+    validations:
+      required: true
+  - type: textarea
+    id: json
+    attributes:
+      label: Exported JSON (optional)
+      description: If you used the authoring tool, paste the exported question file here and leave the fields above as they are.
+      render: json
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked the answer against the cited source.
+          required: true
+        - label: This is not a question from a live IAAP exam.
+          required: true
+        - label: I agree my contribution is licensed CC BY-SA 4.0.
+          required: true
+        - label: I can open a pull request myself (optional).
+          required: false

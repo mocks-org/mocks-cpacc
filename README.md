@@ -12,6 +12,7 @@ exam/
 ├── bank.json            # bank settings + module draw counts
 └── questions/<module>/*.json  # one question per file
 LICENSE                        # CC BY-SA 4.0
+CONTRIBUTING.md                # how to report, write, and review a question
 ```
 
 | Field            | Value                                                       |
@@ -175,6 +176,19 @@ gh secret set MOCKS_APP_TOKEN --repo <owner>/mocks-cpacc
 - The app commit each run used is printed in the job summary.
 - A `MOCKS_APP_REF` that no longer resolves is reported as a warning and the run continues on the default branch, so a rewritten app history never blocks this repository.
 - The SHA must exist in the repository named by `MOCKS_APP_REPOSITORY`.
+
+## Contributing
+
+You do not need git to improve the bank. Pick the form that matches what you have:
+
+| I want to...                                              | Open                                                                                                      |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Report a wrong or ambiguous question                      | [Fix an existing question](https://github.com/mocks-org/mocks-cpacc/issues/new?template=fix-question.yml) |
+| Propose a new question                                    | [Submit a new question](https://github.com/mocks-org/mocks-cpacc/issues/new?template=new-question.yml)    |
+| Draft and validate a question without installing anything | [Authoring tool](https://mocks.oxypteros.com/author), then paste the export into either form              |
+| Send the change as code                                   | Fork, edit `exam/questions/<module>/`, run the validator, open a pull request                             |
+
+An issue is intake, not delivery: accepted reports are re-authored as JSON and merged by a maintainer, or by you if you open the pull request. The rules for modules, options, difficulty, tags, and review metadata are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licence
 
