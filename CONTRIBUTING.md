@@ -5,10 +5,24 @@ Thanks for helping improve the bank. This repository contains question content f
 ## Before you start
 
 - **Never submit a question from a live IAAP exam.** Reproduce only from public sources, in your own words.
+- **Report a security problem privately.** Do not open a public issue with a working payload or a live malicious URL. See [.github/SECURITY.md](.github/SECURITY.md).
 - Questions must be answerable from the current CPACC Body of Knowledge and the public references you cite.
 - Every change must keep the pack valid. The validation rules are in the app's `src/lib/authoring/` and run through `scripts/bank/validate.ts`.
 - One question per issue or pull request. A batch is hard to review and hard to merge.
 - By contributing, you agree that your contribution is licensed under [CC BY-SA 4.0](LICENSE), the same licence as the rest of the pack.
+
+## Language and conduct
+
+This pack follows its own [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). It has two parts: how we treat each other in issues and reviews, and how questions are worded. The wording rules apply to every new question and every edit.
+
+- **People first by default:** "a person with a disability", "a student who is deaf". Identity-first is valid where the community prefers it ("Deaf people", "autistic people", "blind people"). Never use a condition as a noun for a person ("a quadriplegic", "an epileptic", "the disabled").
+- **Describe the barrier, not the deficit:** "uses a wheelchair", not "wheelchair-bound", "has multiple sclerosis", not "suffers from". Never "victim of".
+- **No pity and no inspiration:** no "less fortunate", "brave despite", or "tragic".
+- **No disability as metaphor or insult:** no "blind to", "tone-deaf", "crippling", "crazy", "OCD", "lame", "deaf ears".
+- **Quote, do not adopt, an outdated term.** It may appear only when the term is the subject, inside a quotation, or part of a proper name. Put it in quotation marks and explain it in the rationale or explanation.
+- **A slur or a dehumanising frame blocks a pull request.** A dated term is a change request, not a rejection of the contribution.
+
+The full term table is in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md#12-words-we-avoid).
 
 ## Three ways to contribute
 
@@ -142,6 +156,8 @@ A question can be published only after a second pass that:
 
 - checks the answer against the cited source (`sourceCheckedAt`),
 - checks the explanation and every option rationale (`reviewedAt`),
+- checks the wording against [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) (people-first language, no outdated or dehumanising terms),
+- checks the question against [ACCESSIBILITY.md](ACCESSIBILITY.md) (linear reading, no visual-only meaning, no option-number references),
 - records the checker's name in `reviewer`.
 
 The `reviewer` is the person who verified the question, not necessarily its author.
