@@ -1,0 +1,74 @@
+name: Fix an existing question
+description: A question is wrong, ambiguous, or cites a bad source.
+title: "[Fix] "
+labels: ["submission:fix", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking the bank. You do not need git or the app for this form.
+
+        The results screen shows **Question ID** under each question. If you do not have it, paste the stem below and we will find it.
+  - type: input
+    id: question-id
+    attributes:
+      label: Question ID
+      description: The `cpacc-...` identifier shown on the results screen.
+      placeholder: cpacc-exam-standards-0001
+    validations:
+      required: false
+  - type: textarea
+    id: stem
+    attributes:
+      label: The question as it appears
+      description: Copy the stem, and the options if the problem is in one of them.
+      render: text
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong?
+      options:
+        - Factual error
+        - Two options could be right
+        - No option is right
+        - Ambiguous or leading wording
+        - Explanation or rationale is wrong
+        - Source is wrong, outdated, or dead
+        - Typo or grammar
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is correct, and why?
+      description: Quote the sentence from the source when you can.
+    validations:
+      required: true
+  - type: textarea
+    id: wording
+    attributes:
+      label: Suggested wording (optional)
+      description: A new stem, option, or explanation if you have one. Leave blank if you do not.
+      render: text
+  - type: input
+    id: source
+    attributes:
+      label: Public source for the fix
+      description: A URL, or author/publisher, title, and four-digit year.
+      placeholder: https://example.org/page or Author, Title (2013)
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: This is not a question from a live IAAP exam.
+          required: true
+        - label: I agree my contribution is licensed CC BY-SA 4.0.
+          required: true
+        - label: I can open a pull request myself (optional).
+          required: false
