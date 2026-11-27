@@ -11,6 +11,9 @@ exam.json                # exam configuration (id: cpacc)
 exam/
 ├── bank.json            # bank settings + module draw counts
 └── questions/<module>/*.json  # one question per file
+practice/
+├── bank.json                  # untimed practice bank
+└── questions/<module>/*.json  # one question per file
 LICENSE                        # CC BY-SA 4.0
 CONTRIBUTING.md                # how to report, write, and review a question
 CODE_OF_CONDUCT.md             # community conduct + inclusive-language rules
@@ -21,10 +24,12 @@ ACCESSIBILITY.md               # what the content guarantees, and its limits
 | ---------------- | ----------------------------------------------------------- |
 | Exam             | CPACC (official provider: IAAP)                             |
 | Exam slug / ID   | `cpacc`                                                     |
-| Bank             | `cpacc-exam`                                                |
+| Exam bank        | `cpacc-exam`                                                |
+| Practice bank    | `cpacc-practice`                                            |
 | Authoring schema | `schemaVersion: 3`                                          |
-| Modules          | `disabilities` (40), `accessibility` (40), `standards` (20) |
-| Format           | 100 questions, 4 options each, 120 minutes, 80% to pass     |
+| Exam modules     | `disabilities` (40), `accessibility` (40), `standards` (20) |
+| Practice modules | `general` (10), `docs-code` (11), `testing` (9)             |
+| Exam format      | 100 questions, 4 options each, 120 minutes, 80% to pass     |
 
 The pack root is shaped exactly like one exam directory inside the app's `content/` folder. That means the app can validate and seed it without a conversion step.
 

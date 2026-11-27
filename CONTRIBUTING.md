@@ -100,8 +100,16 @@ See [CI setup](./README.md#ci-setup).
    | `accessibility` | Accessibility and Universal Design                   | 40   |
    | `standards`     | Standards, Laws, and Management Strategies           | 20   |
 
-2. Copy an existing file in `exam/questions/<module>/` as a starting point.
-3. Name the file after the question ID: `cpacc-exam-<module>-<four digits>.json`. The filename must equal the `id` field, and the ID must start with the exam slug `cpacc-`.
+   Practice questions use their own modules and never enter the exam draw:
+
+   | Module      | Title                  |
+   | ----------- | ---------------------- |
+   | `general`   | General accessibility  |
+   | `docs-code` | Documentation and code |
+   | `testing`   | Testing and evaluation |
+
+2. Copy an existing file in `exam/questions/<module>/` or `practice/questions/<module>/` as a starting point.
+3. Name the file after the question ID. Exam questions use `cpacc-exam-<module>-<four digits>.json`. Practice questions use `cpacc-practice-<module>-<four digits>.json`. The filename must equal the `id` field, and the ID must start with the exam slug `cpacc-`.
 4. Fill in every field. A published question needs:
    - `stem` -- the question text, in English.
    - `options` -- exactly 4 options, each with a unique `id`, `text`, `shortLabel`, and `rationale`.
@@ -120,6 +128,8 @@ See [CI setup](./README.md#ci-setup).
 ## Option rules
 
 - Exactly 4 options for exam questions.
+- Practice questions may use two or more options, but four is preferred for consistency with the CPACC exam.
+- Use `option-1`, `option-2`, and so on in authoring order for every option ID, in both banks. A question keeps the same option IDs when it moves between the exam and practice banks.
 - Exactly one correct option, the other three must be plausible and defensible distractors.
 - No duplicate option text or IDs within a question.
 - Avoid absolute words in distractors (`all`, `always`, `never`, `only`, `must`, ...) if they make the wrong answer obvious.
