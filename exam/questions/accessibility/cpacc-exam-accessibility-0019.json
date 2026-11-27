@@ -1,51 +1,51 @@
 {
-	"id": "cpacc-exam-accessibility-0019",
-	"module": "accessibility",
-	"type": "single",
-	"stem": "In the Universal Design for Learning (UDL) framework, how does an instructor provide multiple means of representation?",
-	"options": [
-		{
-			"id": "option-1",
-			"text": "By varying the challenge and support within each activity so that students stay invested in the work.",
-			"shortLabel": "Varying challenge and support",
-			"rationale": "Adjusting challenge and support to sustain effort is multiple means of engagement; it does not change how the content is presented."
-		},
-		{
-			"id": "option-2",
-			"text": "By giving learners the same explanation in several forms, such as text, audio, video, and labeled diagrams.",
-			"shortLabel": "Same explanation in several formats",
-			"rationale": "Multiple means of representation offers the same content in more than one format, so learners can perceive and comprehend it in different ways."
-		},
-		{
-			"id": "option-3",
-			"text": "By letting students choose how to present their understanding, such as in writing, in a talk, or by building a model.",
-			"shortLabel": "Choice of how to show understanding",
-			"rationale": "Choosing how to demonstrate learning is multiple means of action and expression; it concerns how students respond, not how content reaches them."
-		},
-		{
-			"id": "option-4",
-			"text": "By providing text, audio, diagram, and video versions chosen to match each student's learning style.",
-			"shortLabel": "One format matched to each learning style",
-			"rationale": "Assigning one format per learner turns representation into a fixed match; multiple means of representation keeps several formats available to every learner."
-		}
-	],
-	"correctOptionId": "option-2",
-	"explanation": "Multiple means of representation focuses on how information is communicated to learners. Because students perceive and comprehend information differently (for example, due to sensory disabilities, learning disabilities, or language differences), instructors should offer content in several forms, such as text, audio, illustrations, video, and concrete examples. The other options describe engagement, action and expression, or a fixed format match rather than representation.",
-	"references": [
-		{
-			"kind": "publication",
-			"title": "Universal Design for Learning: Theory and Practice",
-			"author": "Anne Meyer, David H. Rose, and David Gordon",
-			"year": "2014"
-		}
-	],
-	"images": [],
-	"difficulty": 3,
-	"tags": ["udl", "representation"],
-	"status": "published",
-	"provenance": "authored",
-	"author": "Oxypteros",
-	"reviewer": "Oxypteros",
-	"reviewedAt": "2026-10-31",
-	"sourceCheckedAt": "2026-11-27"
+  "id": "cpacc-exam-accessibility-0019",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "In the Universal Design for Learning (UDL) framework, how does an instructor provide multiple means of representation?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "By varying the challenge and support within each activity so that students stay invested in the work.",
+      "shortLabel": "Varying challenge and support",
+      "rationale": "Adjusting challenge and support to sustain effort is multiple means of engagement, it does not change how the content is presented."
+    },
+    {
+      "id": "option-2",
+      "text": "By giving learners the same explanation in several forms, such as text, audio, video, and labeled diagrams.",
+      "shortLabel": "Same explanation in several formats",
+      "rationale": "Multiple means of representation offers the same content in more than one format, so learners can perceive and comprehend it in different ways."
+    },
+    {
+      "id": "option-3",
+      "text": "By letting students choose how to present their understanding, such as in writing, in a talk, or by building a model.",
+      "shortLabel": "Choice of how to show understanding",
+      "rationale": "Choosing how to demonstrate learning is multiple means of action and expression. It concerns how students respond, not how content reaches them."
+    },
+    {
+      "id": "option-4",
+      "text": "By providing text, audio, diagram, and video versions chosen to match each student's learning style.",
+      "shortLabel": "One format matched to each learning style",
+      "rationale": "Assigning one format per learner turns representation into a fixed match. Multiple means of representation keeps several formats available to every learner."
+    }
+  ],
+  "correctOptionId": "option-2",
+  "explanation": "Multiple means of representation focuses on how information is communicated to learners. Because students perceive and comprehend information differently (for example, due to sensory disabilities, learning disabilities, or language differences), instructors should offer content in several forms, such as text, audio, illustrations, video, and concrete examples. The other options describe engagement, action and expression, or a fixed format match rather than representation.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "Universal Design for Learning: Theory and Practice",
+      "author": "Anne Meyer, David H. Rose, and David Gordon",
+      "year": "2014"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["udl", "representation"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
 }

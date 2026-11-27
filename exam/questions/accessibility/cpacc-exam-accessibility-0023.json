@@ -1,50 +1,50 @@
 {
-	"id": "cpacc-exam-accessibility-0023",
-	"module": "accessibility",
-	"type": "single",
-	"stem": "A commuter tries to read a mobile screen outdoors in bright sunlight and glare. Which digital accessibility practice directly improves usability in this situation?",
-	"options": [
-		{
-			"id": "option-1",
-			"text": "High contrast ratios between text and its background surfaces.",
-			"shortLabel": "High text-to-background contrast",
-			"rationale": "Strong contrast keeps text legible when glare washes out the screen, which helps anyone reading outdoors."
-		},
-		{
-			"id": "option-2",
-			"text": "Providing full audio descriptions for prerecorded graphic animations on the screen.",
-			"shortLabel": "Audio descriptions for animations",
-			"rationale": "Audio description conveys visual action to viewers who are blind or have low vision, but it does not make on-screen text easier to read in glare."
-		},
-		{
-			"id": "option-3",
-			"text": "Supporting external switch devices that emulate keyboard input.",
-			"shortLabel": "External switch device access",
-			"rationale": "Switch devices support people with severe motor limitations; they do not reduce glare on a screen."
-		},
-		{
-			"id": "option-4",
-			"text": "Writing instructions in plain language so the content is easier to understand.",
-			"shortLabel": "Plain-language instructions",
-			"rationale": "Plain language supports cognitive accessibility; it does not make text easier to see in bright sunlight."
-		}
-	],
-	"correctOptionId": "option-1",
-	"explanation": "Digital accessibility features designed for permanent disabilities also benefit individuals experiencing temporary or situational limitations. High visual contrast between foreground text and backgrounds ensures that content remains readable in bright sunlight and outdoor glare.",
-	"references": [
-		{
-			"kind": "web",
-			"title": "W3C WAI: Introduction to Web Accessibility",
-			"url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
-		}
-	],
-	"images": [],
-	"difficulty": 1,
-	"tags": ["benefits-of-accessibility", "contrast"],
-	"status": "published",
-	"provenance": "authored",
-	"author": "Oxypteros",
-	"reviewer": "Oxypteros",
-	"reviewedAt": "2026-10-31",
-	"sourceCheckedAt": "2026-11-19"
+  "id": "cpacc-exam-accessibility-0023",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "A commuter tries to read a mobile screen outdoors in bright sunlight and glare. Which digital accessibility practice directly improves usability in this situation?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "High contrast ratios between text and its background surfaces.",
+      "shortLabel": "High text-to-background contrast",
+      "rationale": "Strong contrast keeps text legible when glare washes out the screen, which helps anyone reading outdoors."
+    },
+    {
+      "id": "option-2",
+      "text": "Offering a dark display theme that replaces light backgrounds with dark surfaces.",
+      "shortLabel": "Dark display theme",
+      "rationale": "Dark themes can reduce perceived screen brightness in some environments and may suit individual preferences, but they do not inherently provide sufficient contrast or guarantee improved readability in direct sunlight."
+    },
+    {
+      "id": "option-3",
+      "text": "Supporting automatic screen brightness adjustment based on ambient lighting conditions.",
+      "shortLabel": "Automatic brightness adjustment",
+      "rationale": "Ambient light sensors can increase screen brightness in bright environments, potentially improving visibility. However, automatic brightness is a device-level feature and does not replace the need for adequate text-to-background contrast."
+    },
+    {
+      "id": "option-4",
+      "text": "Allowing users to enlarge text and interface elements through system-level display settings.",
+      "shortLabel": "Adjustable text and interface size",
+      "rationale": "Larger text and interface elements can improve readability for people with low vision, but increasing their size does not directly address the loss of visual distinction caused by glare."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Digital accessibility features designed for permanent disabilities also benefit individuals experiencing temporary or situational limitations. High visual contrast between foreground text and backgrounds ensures that content remains readable in bright sunlight and outdoor glare.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI: Introduction to Web Accessibility",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+    }
+  ],
+  "images": [],
+  "difficulty": 1,
+  "tags": ["benefits-of-accessibility", "contrast"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
 }
