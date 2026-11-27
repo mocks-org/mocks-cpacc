@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 3,
+  "exam": "cpacc",
+  "bank": {
+    "id": "cpacc-practice",
+    "kind": "practice",
+    "title": "Mocks CPACC Practice Bank",
+    "version": "0.1.0-beta",
+    "status": "published",
+    "optionCount": 4
+  },
+  "modules": [
+    {
+      "id": "general",
+      "title": "General accessibility",
+      "questionCount": null
+    },
+    {
+      "id": "docs-code",
+      "title": "Documentation and code",
+      "questionCount": null
+    },
+    {
+      "id": "testing",
+      "title": "Testing and evaluation",
+      "questionCount": null
+    }
+  ]
+}
