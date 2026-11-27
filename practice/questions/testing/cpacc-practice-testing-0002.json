@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-testing-0002",
+  "module": "testing",
+  "type": "single",
+  "stem": "Which approach gives the most reliable picture of whether a website works for screen reader users?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Observe screen reader users on real tasks and note if they get stuck.",
+      "shortLabel": "Observe real users",
+      "rationale": "Watching people use the site on real tasks reveals problems that automated checks and source inspection miss."
+    },
+    {
+      "id": "option-2",
+      "text": "Count how many images on the site have an alt attribute.",
+      "shortLabel": "Count alt attributes",
+      "rationale": "Counting attributes measures markup coverage, not whether the text alternatives are useful or the site is usable."
+    },
+    {
+      "id": "option-3",
+      "text": "Run a screen reader over the home page and time how long it takes to read it.",
+      "shortLabel": "Time a page read",
+      "rationale": "Reading speed does not show whether users can find information, follow the reading order, or complete tasks."
+    },
+    {
+      "id": "option-4",
+      "text": "Set the screen reader to its fastest speech rate and listen for errors.",
+      "shortLabel": "Listen at fast speed",
+      "rationale": "Listening at speed tests the reviewer's comprehension, not the experience of people who use screen readers daily."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Watching people who use screen readers complete realistic tasks reveals problems that automated checks miss, including confusing reading order, unclear names, and unexpected focus changes. Counting alt attributes or timing a page read does not show whether the site is usable.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Involving Users in Evaluating Web Accessibility",
+      "url": "https://www.w3.org/WAI/test-evaluate/involving-users/"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["screen-readers", "testing"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

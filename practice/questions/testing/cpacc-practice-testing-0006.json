@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-testing-0006",
+	"module": "testing",
+	"type": "single",
+	"stem": "A page looks correct, but its DOM order does not match the visual layout. Which test best reveals whether keyboard focus follows the visual order?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Tab through the page and watch the focus order.",
+			"shortLabel": "Follow the focus",
+			"rationale": "Keyboard focus follows the DOM, so tabbing shows whether the sequence matches what sighted users see."
+		},
+		{
+			"id": "option-2",
+			"text": "Run an automated HTML validator and check for markup errors.",
+			"shortLabel": "Validate the markup",
+			"rationale": "Valid markup can still be in an order that does not match the visual layout."
+		},
+		{
+			"id": "option-3",
+			"text": "Check the page's text and background colors with a contrast analyzer.",
+			"shortLabel": "Check contrast",
+			"rationale": "Contrast affects readability, not the sequence in which focus moves."
+		},
+		{
+			"id": "option-4",
+			"text": "Open the page at 200% zoom and check for horizontal scrolling.",
+			"shortLabel": "Zoom to 200%",
+			"rationale": "Zoom tests enlargement, not the order of focusable elements."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "Keyboard focus follows the document order. If CSS places content in a different visual order, keyboard and screen reader users can meet controls in an unexpected sequence. Tabbing through the page and comparing the focus path with the layout exposes the mismatch; validation, contrast, and zoom checks do not.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI — Understanding Success Criterion 2.4.3: Focus Order",
+			"url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["keyboard", "focus-order", "testing"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}

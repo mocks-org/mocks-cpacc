@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-testing-0003",
+	"module": "testing",
+	"type": "single",
+	"stem": "A team wants to check that a page stays usable when users enlarge its text. Which test best matches WCAG 2.2 Level AA expectations?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Zoom the browser to 200% and confirm the content and controls remain available and readable.",
+			"shortLabel": "Zoom to 200%",
+			"rationale": "The resize-text requirement is about content and functionality surviving enlargement to 200%, not about a fixed font size."
+		},
+		{
+			"id": "option-2",
+			"text": "Increase the monitor resolution and check that the text looks sharp.",
+			"shortLabel": "Raise the resolution",
+			"rationale": "A sharper display does not enlarge the text or test whether content survives enlargement."
+		},
+		{
+			"id": "option-3",
+			"text": "Open the page in a narrow mobile viewport and check that it reflows.",
+			"shortLabel": "Check a mobile viewport",
+			"rationale": "Reflow at a narrow width is a separate concern; it does not show how the page behaves when a user zooms."
+		},
+		{
+			"id": "option-4",
+			"text": "Confirm the stylesheet's base font size is at least 16 pixels.",
+			"shortLabel": "Check the base font size",
+			"rationale": "A 16-pixel base is a design choice; users can still zoom, and the requirement is about the result at 200%."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "WCAG 1.4.4 asks that text can be resized up to 200% without loss of content or functionality. The practical test is to zoom to 200% and check that everything remains readable and operable. A mobile viewport test covers reflow, and a fixed base font size does not guarantee the result under zoom.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI — Understanding Success Criterion 1.4.4: Resize Text",
+			"url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["zoom", "testing", "wcag"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}

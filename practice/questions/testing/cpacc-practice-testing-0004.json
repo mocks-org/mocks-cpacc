@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-testing-0004",
+  "module": "testing",
+  "type": "single",
+  "stem": "A status chart uses red and green circles to show pass and fail. Which test best checks whether the meaning survives without color?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "View the chart in grayscale.",
+      "shortLabel": "View in grayscale",
+      "rationale": "Grayscale removes the color difference, so any status that becomes ambiguous was relying on color alone."
+    },
+    {
+      "id": "option-2",
+      "text": "Check that the chart's labels have enough contrast against the background.",
+      "shortLabel": "Check label contrast",
+      "rationale": "Label contrast affects readability but does not show whether the red and green circles still convey status without color."
+    },
+    {
+      "id": "option-3",
+      "text": "Ask several colleagues if the two colors are visible.",
+      "shortLabel": "Ask about visibility",
+      "rationale": "Visibility says nothing about whether the status is still identifiable without color."
+    },
+    {
+      "id": "option-4",
+      "text": "Run an HTML validator and confirm the chart markup is well formed.",
+      "shortLabel": "Validate the markup",
+      "rationale": "Valid markup can still use color as the only way to convey meaning."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "WCAG's use-of-color requirement says color must not be the only visual means of conveying information. Viewing the chart in grayscale is a quick check: if pass and fail become indistinguishable, add text, a pattern, or a shape. Contrast checks and markup validation do not test color dependence.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Understanding Success Criterion 1.4.1: Use of Color",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["color", "testing", "wcag"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

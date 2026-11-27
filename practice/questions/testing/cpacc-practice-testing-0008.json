@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-testing-0008",
+  "module": "testing",
+  "type": "single",
+  "stem": "A team wants to test whether a page supports reflow at the width WCAG 2.2 expects. Which viewport should they test?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "A 320 CSS pixel wide viewport.",
+      "shortLabel": "320 pixels wide",
+      "rationale": "WCAG's reflow criterion uses 320 CSS pixels, the equivalent of 400% zoom on a 1280-pixel-wide viewport."
+    },
+    {
+      "id": "option-2",
+      "text": "A 768 CSS pixel wide tablet viewport at default zoom.",
+      "shortLabel": "Tablet width",
+      "rationale": "A tablet width does not test the reflow requirement."
+    },
+    {
+      "id": "option-3",
+      "text": "A 1280 CSS pixel wide desktop viewport at 200% zoom.",
+      "shortLabel": "Desktop at 200%",
+      "rationale": "200% zoom at 1280 pixels gives 640 CSS pixels, not the 320-pixel width used for reflow."
+    },
+    {
+      "id": "option-4",
+      "text": "The narrowest width the design team supports in its browser matrix.",
+      "shortLabel": "Browser matrix",
+      "rationale": "The criterion sets the test width, a support matrix does not replace it."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "WCAG 2.2 Success Criterion 1.4.10 Reflow expects content to work at a width equivalent to 320 CSS pixels, which corresponds to 400% zoom on a 1280-pixel-wide viewport. At that width, content should not require two-dimensional scrolling, apart from allowed exceptions such as data tables.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Understanding Success Criterion 1.4.10: Reflow",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["reflow", "zoom", "testing"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

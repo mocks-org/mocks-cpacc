@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-testing-0001",
+  "module": "testing",
+  "type": "single",
+  "stem": "A team wants to verify that a modal dialog works for keyboard-only users. Which test is most useful?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Tab through the open dialog and check focus stays inside and returns on close.",
+      "shortLabel": "Test the focus cycle",
+      "rationale": "This checks the full keyboard interaction: entering the dialog, moving within it, and returning focus to the trigger."
+    },
+    {
+      "id": "option-2",
+      "text": "Run an HTML validator and confirm that the dialog markup is well formed.",
+      "shortLabel": "Validate the markup",
+      "rationale": "Valid markup can still leave a dialog unusable if focus escapes or never reaches the dialog."
+    },
+    {
+      "id": "option-3",
+      "text": "Check the dialog's background and text colors with a contrast checker.",
+      "shortLabel": "Check contrast",
+      "rationale": "Contrast affects readability but does not show whether keyboard focus is managed correctly."
+    },
+    {
+      "id": "option-4",
+      "text": "Confirm that the dialog element has an `aria-label` attribute in the source code.",
+      "shortLabel": "Check the label",
+      "rationale": "A label helps announce the dialog but does not prove that keyboard users can enter, move within, or leave it."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Keyboard testing checks the full interaction: focus moves into the dialog, stays within it while it is open, and returns to the trigger when it closes. A validator, contrast check, or ARIA attribute check can pass while the dialog remains unusable by keyboard.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI-ARIA Authoring Practices — Dialog (Modal) Pattern",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["keyboard-accessibility", "testing"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

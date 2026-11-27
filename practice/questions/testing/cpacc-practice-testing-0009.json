@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-testing-0009",
+	"module": "testing",
+	"type": "single",
+	"stem": "A page has a 'Skip to main content' link as its first focusable element. Which test confirms that the link works?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Press Tab, activate the link, and confirm focus.",
+			"shortLabel": "Follow the focus",
+			"rationale": "The test follows the user's path: reach the link first, activate it, and verify the focus destination."
+		},
+		{
+			"id": "option-2",
+			"text": "Check that the link is visible in the page's footer.",
+			"shortLabel": "Check the footer",
+			"rationale": "The skip link belongs at the start of the page, and its location does not show that activation moves focus."
+		},
+		{
+			"id": "option-3",
+			"text": "Run an automated scan and confirm that a skip link is present.",
+			"shortLabel": "Automated scan",
+			"rationale": "Presence in the markup does not prove the target exists or receives focus."
+		},
+		{
+			"id": "option-4",
+			"text": "Zoom the page to 200% and confirm the link stays on screen.",
+			"shortLabel": "Zoom to 200%",
+			"rationale": "Zoom is unrelated to whether the link bypasses navigation."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "A skip link should be easy to reach before the repeated navigation and must move focus to the main content when activated. Testing means pressing Tab once, activating the link, and confirming that focus lands in the main region. Finding the link in the markup or on screen does not prove the behavior.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI — Understanding Success Criterion 2.4.1: Bypass Blocks",
+			"url": "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["skip-link", "keyboard", "testing"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}

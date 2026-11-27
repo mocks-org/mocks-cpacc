@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-testing-0005",
+	"module": "testing",
+	"type": "single",
+	"stem": "A developer builds a toggle with `role=\"switch\"` and updates `aria-checked`. Which result shows that screen reader users receive the control's state correctly?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "The screen reader announces the switch state.",
+			"shortLabel": "State is announced",
+			"rationale": "The name, role, and state are exposed when the screen reader identifies the control as a switch and announces its current value."
+		},
+		{
+			"id": "option-2",
+			"text": "The toggle shows a visible focus outline when reached with the Tab key.",
+			"shortLabel": "Visible focus outline",
+			"rationale": "A focus indicator shows where focus is, not whether the control is on or off."
+		},
+		{
+			"id": "option-3",
+			"text": "The toggle's label uses the same font and size as the surrounding text.",
+			"shortLabel": "Matching typography",
+			"rationale": "Visual consistency does not tell assistive technology what the control is or what state it is in."
+		},
+		{
+			"id": "option-4",
+			"text": "The page passes an automated scan for ARIA errors.",
+			"shortLabel": "Clean automated scan",
+			"rationale": "A clean automated scan does not prove that a state change is announced correctly."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "For a custom control, assistive technology needs the name, role, and state. With `role=\"switch\"` and `aria-checked`, a screen reader should announce a switch and say whether it is on or off, updating after each change. A focus ring, matching typography, or a clean scan does not confirm that the state is exposed.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI-ARIA Authoring Practices — Switch Pattern",
+			"url": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["aria", "screen-readers", "testing"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}

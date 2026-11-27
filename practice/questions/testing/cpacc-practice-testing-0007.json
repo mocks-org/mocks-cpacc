@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-testing-0007",
+	"module": "testing",
+	"type": "single",
+	"stem": "A website's icon buttons measure 16 by 16 CSS pixels. Which WCAG 2.2 Level AA check applies?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Target Size (Minimum) requires 24 by 24 CSS pixels or enough spacing.",
+			"shortLabel": "Target size",
+			"rationale": "WCAG 2.2 sets a 24 by 24 CSS pixel minimum, with a spacing exception for undersized targets."
+		},
+		{
+			"id": "option-2",
+			"text": "Contrast (Minimum) requires at least 4.5:1 between the icon and its background.",
+			"shortLabel": "Icon contrast",
+			"rationale": "Contrast affects the icon's visibility, not its target size; both can matter, but size is the check asked about."
+		},
+		{
+			"id": "option-3",
+			"text": "Resize Text requires the icon to grow to 200% with the page text.",
+			"shortLabel": "Resize with text",
+			"rationale": "Resize Text concerns text, not the target size of a control."
+		},
+		{
+			"id": "option-4",
+			"text": "Focus Visible requires the icon to show a 2-pixel outline.",
+			"shortLabel": "Focus outline",
+			"rationale": "Focus Visible concerns the focus indicator, not the target's dimensions."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "WCAG 2.2 Success Criterion 2.5.8 Target Size (Minimum) sets a Level AA minimum of 24 by 24 CSS pixels for pointer targets, with exceptions such as sufficient spacing, inline links, and controls whose size is set by the user agent. A 16 by 16 target is below that minimum unless an exception applies.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI — Understanding Success Criterion 2.5.8: Target Size (Minimum)",
+			"url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html"
+		}
+	],
+	"images": [],
+	"difficulty": 3,
+	"tags": ["target-size", "wcag", "testing"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}
