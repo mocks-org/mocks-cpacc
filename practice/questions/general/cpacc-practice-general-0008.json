@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-general-0008",
+	"module": "general",
+	"type": "single",
+	"stem": "A newsletter presents its main article as a single image of text. Which problem does this create for readers?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "A screen reader cannot read the text as text.",
+			"shortLabel": "Not real text",
+			"rationale": "The article is pixels, so assistive technology has no text to present, resize, or search."
+		},
+		{
+			"id": "option-2",
+			"text": "The image makes the email file too large to send.",
+			"shortLabel": "File size",
+			"rationale": "File size affects delivery, not whether the article's words are available to assistive technology."
+		},
+		{
+			"id": "option-3",
+			"text": "Readers cannot click the unsubscribe link in the footer.",
+			"shortLabel": "Unsubscribe link",
+			"rationale": "The footer link is separate from the article image; presenting the article as an image does not block it."
+		},
+		{
+			"id": "option-4",
+			"text": "The newsletter loses its visual branding in dark mode.",
+			"shortLabel": "Dark mode branding",
+			"rationale": "Branding is a visual choice; the barrier is that the article's words are not available as text."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "When article text is part of an image, screen readers have only the image and its short text alternative. Readers cannot select, search, reflow, or resize the words with their own settings. Publish the article as HTML text and keep images for decoration or illustration.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI — Understanding Success Criterion 1.4.5: Images of Text",
+			"url": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["email", "images-of-text"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}

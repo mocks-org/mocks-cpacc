@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-general-0009",
+  "module": "general",
+  "type": "single",
+  "stem": "A team runs a hybrid meeting with remote and in-person participants. Which practice best supports participants who are Deaf or hard of hearing?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Enable live captions and amplify remote audio into the room.",
+      "shortLabel": "Captions and room audio",
+      "rationale": "Live captions give real-time text access, and room audio lets everyone follow remote speakers."
+    },
+    {
+      "id": "option-2",
+      "text": "Ask participants to wait for the chair to recognize them before speaking.",
+      "shortLabel": "Strict turn-taking",
+      "rationale": "Turn-taking helps order but does not make the spoken content available."
+    },
+    {
+      "id": "option-3",
+      "text": "Record the meeting and share the captioned video afterward.",
+      "shortLabel": "Share a recording",
+      "rationale": "A recording is useful later but does not make the live discussion accessible."
+    },
+    {
+      "id": "option-4",
+      "text": "Use a single microphone at the front of the room.",
+      "shortLabel": "One front microphone",
+      "rationale": "One front microphone may not pick up audience questions or remote audio clearly."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Access has to work during the meeting. Live captions convert speech to text in real time, and the room sound system must carry remote participants so everyone can hear them. A recording shared later does not replace access during the meeting, and turn-taking alone does not make speech available to people who cannot hear it.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Making Events Accessible",
+      "url": "https://www.w3.org/WAI/teach-advocate/accessible-presentations/"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["meetings", "captions"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

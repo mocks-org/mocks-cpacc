@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-general-0003",
+  "module": "general",
+  "type": "single",
+  "stem": "Which wording avoids defining a person by their disability?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "a person with epilepsy",
+      "shortLabel": "Person with epilepsy",
+      "rationale": "This puts the person first and treats epilepsy as one part of their life rather than their whole identity."
+    },
+    {
+      "id": "option-2",
+      "text": "an epileptic individual",
+      "shortLabel": "An epileptic",
+      "rationale": "This uses the condition as a noun for the person, which defines them by their disability."
+    },
+    {
+      "id": "option-3",
+      "text": "the epileptic",
+      "shortLabel": "The epileptic",
+      "rationale": "This reduces a person to a condition and can read as a label for a group rather than an individual."
+    },
+    {
+      "id": "option-4",
+      "text": "a seizure victim",
+      "shortLabel": "Seizure victim",
+      "rationale": "This frames the person as helpless and defines them by a medical event, which is not respectful wording."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "People-first language puts the person before the condition, as in 'a person with epilepsy.' Identity-first language is valid when a community prefers it, such as 'Deaf person' or 'autistic person,' but terms that use a condition as a noun for a person, such as 'an epileptic,' are avoided. Ask people what wording they prefer when it is practical to do so.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "ADA National Network — Guidelines for Writing About People with Disabilities",
+      "url": "https://adata.org/factsheet/adann-writing/"
+    }
+  ],
+  "images": [],
+  "difficulty": 1,
+  "tags": ["inclusive-language"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

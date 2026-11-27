@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-general-0006",
+	"module": "general",
+	"type": "single",
+	"stem": "A public agency must rewrite this sentence for a general audience: 'Applicants shall submit documentation evidencing eligibility prior to the expiration of the aforementioned deadline.' Which rewrite best follows plain-language guidance?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Send your proof of eligibility before the deadline.",
+			"shortLabel": "Direct instruction",
+			"rationale": "This is short and direct, addresses the reader, and replaces legal jargon with common words."
+		},
+		{
+			"id": "option-2",
+			"text": "Applicants shall furnish documentation evidencing eligibility prior to the deadline.",
+			"shortLabel": "Formal verbs",
+			"rationale": "Swapping one legal verb for another keeps the formal register and the abstract wording."
+		},
+		{
+			"id": "option-3",
+			"text": "Documentation that evidences eligibility is to be submitted by applicants prior to deadline expiration.",
+			"shortLabel": "Passive and wordy",
+			"rationale": "The passive construction hides who must act and stacks several abstract nouns."
+		},
+		{
+			"id": "option-4",
+			"text": "Eligibility is to be evidenced through documentation submitted before the deadline.",
+			"shortLabel": "Abstract and passive",
+			"rationale": "The passive construction and abstract nouns make the reader work harder than needed."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "Plain language uses short sentences, common words, and direct address. 'Send your proof of eligibility before the deadline' says who does what and when. The other versions keep legal verbs, passive voice, or stacked abstract nouns.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "Digital.gov — Plain language guide series",
+			"url": "https://www.plainlanguage.gov/guidelines/"
+		}
+	],
+	"images": [],
+	"difficulty": 1,
+	"tags": ["plain-language", "writing"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}

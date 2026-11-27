@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-general-0007",
+  "module": "general",
+  "type": "single",
+  "stem": "A presenter shows a chart and says, \"As you can see, sales improved.\" What should the presenter do so the point is available to people who cannot see the chart?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "State the main finding in words.",
+      "shortLabel": "Describe the finding",
+      "rationale": "Stating the key result in words gives listeners without the chart the same information the visual was meant to convey."
+    },
+    {
+      "id": "option-2",
+      "text": "Speak more slowly and repeat the sentence.",
+      "shortLabel": "Repeat more slowly",
+      "rationale": "Repeating a visual reference does not add the information that was only shown on screen."
+    },
+    {
+      "id": "option-3",
+      "text": "Send the slide to the audience after the session.",
+      "shortLabel": "Send the slide later",
+      "rationale": "The slide arrives after the discussion, and an inaccessible chart is still inaccessible when it is sent."
+    },
+    {
+      "id": "option-4",
+      "text": "Make the chart larger on the screen.",
+      "shortLabel": "Enlarge the chart",
+      "rationale": "A larger chart helps some viewers but remains a purely visual way of conveying the result."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "A visual reference such as 'as you can see' assumes everyone can see the chart. Describing the key finding in words makes the same information available to people who are blind, have low vision, or are listening without the screen. Sending the slide later does not provide the information when it is needed, and a larger chart is still visual.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — How to Make Your Presentations Accessible to All",
+      "url": "https://www.w3.org/WAI/teach-advocate/accessible-presentations/"
+    }
+  ],
+  "images": [],
+  "difficulty": 1,
+  "tags": ["presentations", "visual-description"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

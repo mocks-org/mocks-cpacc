@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-general-0004",
+	"module": "general",
+	"type": "single",
+	"stem": "A product team says, 'None of our users have disabilities, so accessibility is not a priority.' What is the most accurate response?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Disability is common, and accessible design also helps people with temporary or situational limitations.",
+			"shortLabel": "Common and broadly useful",
+			"rationale": "About 15% of the world's population has a recognized disability, and many more acquire disability without identifying as disabled; accessible design also helps people with temporary or situational limitations."
+		},
+		{
+			"id": "option-2",
+			"text": "Accessibility is a public-sector concern, so a private product can wait.",
+			"shortLabel": "Public-sector concern only",
+			"rationale": "Accessibility benefits private products too, and legal obligations are not limited to the public sector."
+		},
+		{
+			"id": "option-3",
+			"text": "Users with disabilities will request accommodations when they need them.",
+			"shortLabel": "Wait for requests",
+			"rationale": "Waiting for requests puts the burden on users, who may not know the option exists or may not want to disclose a disability."
+		},
+		{
+			"id": "option-4",
+			"text": "Automated testing will identify the small number of users who need accessibility.",
+			"shortLabel": "Automated testing finds users",
+			"rationale": "Automated tests find some technical failures; they do not identify users or measure whether people can complete tasks."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "About 15% of the world's population has a recognized disability, and many people acquire disability without identifying as disabled. Accessible design also helps people with temporary injuries, changing abilities, and situational constraints such as bright sunlight or noise. Waiting for users to request accommodations puts the burden on them and can exclude people who do not know an accommodation exists.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI — The Business Case for Digital Accessibility",
+			"url": "https://www.w3.org/WAI/business-case/"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["inclusive-design", "business-case"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}

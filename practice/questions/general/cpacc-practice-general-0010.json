@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-general-0010",
+	"module": "general",
+	"type": "single",
+	"stem": "A utility lets customers contact support only by phone. Which change removes a barrier for customers who are Deaf or hard of hearing?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "Add email and chat support.",
+			"shortLabel": "Text support channels",
+			"rationale": "A text-based channel lets customers who cannot use a phone get the same service."
+		},
+		{
+			"id": "option-2",
+			"text": "Extend the phone line's opening hours.",
+			"shortLabel": "Longer phone hours",
+			"rationale": "Longer hours do not help someone who cannot communicate by voice."
+		},
+		{
+			"id": "option-3",
+			"text": "Add a voice menu with more options.",
+			"shortLabel": "Expanded voice menu",
+			"rationale": "A longer voice menu is still an audio-only channel."
+		},
+		{
+			"id": "option-4",
+			"text": "Provide a louder hold message.",
+			"shortLabel": "Louder hold audio",
+			"rationale": "Hold volume does not make the service usable by text."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "A phone-only service excludes people who cannot hear or speak on the phone. Email or chat gives them an equivalent way to reach support. Longer hours, more voice options, and louder audio all keep the service in the same audio-only channel.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "ADA National Network — Effective Communication",
+			"url": "https://adata.org/factsheet/communication"
+		}
+	],
+	"images": [],
+	"difficulty": 1,
+	"tags": ["customer-service", "deaf", "communication"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}

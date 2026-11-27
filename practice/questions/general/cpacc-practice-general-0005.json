@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-general-0005",
+  "module": "general",
+  "type": "single",
+  "stem": "A team publishes its annual report as a PDF made from scanned page images. Which change makes the report accessible?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Publish a tagged text-based PDF.",
+      "shortLabel": "Tagged text",
+      "rationale": "Scanned pages are images, so a screen reader has no text to read, real text plus tags and reading order make the content navigable."
+    },
+    {
+      "id": "option-2",
+      "text": "Raise the scan resolution so the text looks sharper on screen.",
+      "shortLabel": "Sharper scan",
+      "rationale": "Sharper images help magnification, but the page stays an image and a screen reader still cannot read it."
+    },
+    {
+      "id": "option-3",
+      "text": "Add PDF bookmarks for each chapter and section.",
+      "shortLabel": "Add bookmarks",
+      "rationale": "Bookmarks speed navigation, but they do not expose the page text or its reading order to assistive technology."
+    },
+    {
+      "id": "option-4",
+      "text": "Add a cover page that warns readers the PDF may be inaccessible.",
+      "shortLabel": "Add a warning",
+      "rationale": "A warning does not remove the barrier, the report's content still needs to be available as text."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "A scan is a picture of text. Screen readers need actual characters and structure, so the document must be exported or rebuilt as a tagged PDF with a logical reading order, or offered in an accessible HTML format. Higher resolution, bookmarks, and warnings do not make the text readable.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "WebAIM — PDF Accessibility",
+      "url": "https://webaim.org/techniques/acrobat/"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["documents", "pdf", "screen-readers"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

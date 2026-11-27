@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-general-0002",
+	"module": "general",
+	"type": "single",
+	"stem": "Which example is an environmental barrier rather than a limitation of the person?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "A single step at a building's main entrance.",
+			"shortLabel": "Step at the entrance",
+			"rationale": "The step is a feature of the built environment that excludes some people, and it can be removed or redesigned."
+		},
+		{
+			"id": "option-2",
+			"text": "Reduced hearing in one ear.",
+			"shortLabel": "Reduced hearing",
+			"rationale": "Reduced hearing is a sensory characteristic of the person, not a feature of the environment."
+		},
+		{
+			"id": "option-3",
+			"text": "Chronic fatigue that limits physical activity.",
+			"shortLabel": "Chronic fatigue",
+			"rationale": "Chronic fatigue is a health condition of the person; the barrier arises when the environment does not accommodate it."
+		},
+		{
+			"id": "option-4",
+			"text": "Difficulty decoding long or unfamiliar words.",
+			"shortLabel": "Reading difficulty",
+			"rationale": "This is a cognitive or learning characteristic of the person, not an environmental obstacle."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "Under the social model, disability arises from the interaction between a person and barriers in the environment. A step at an entrance is a design barrier that can be removed; reduced hearing, fatigue, and difficulty decoding words are characteristics of the person. The same characteristic may or may not become disabling depending on how the environment is designed.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI — Diverse Abilities and Barriers",
+			"url": "https://www.w3.org/WAI/people-use-web/abilities-barriers/"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["social-model", "barriers"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}

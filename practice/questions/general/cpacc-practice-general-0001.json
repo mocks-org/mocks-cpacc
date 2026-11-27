@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-general-0001",
+  "module": "general",
+  "type": "single",
+  "stem": "A worker breaks their wrist and cannot use a mouse for six weeks. Which statement best describes this situation in accessibility terms?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "A temporary impairment that flexible input methods can address.",
+      "shortLabel": "Temporary impairment",
+      "rationale": "Temporary conditions create the same input barriers as permanent ones, and the same flexible input options help."
+    },
+    {
+      "id": "option-2",
+      "text": "A personal medical issue that digital design does not need to consider.",
+      "shortLabel": "Not a design concern",
+      "rationale": "Design choices decide whether the worker can keep using the product while the wrist heals, so the situation is a design concern."
+    },
+    {
+      "id": "option-3",
+      "text": "A situational limitation, because it depends on the worker's environment.",
+      "shortLabel": "Situational limitation",
+      "rationale": "A situational limitation comes from the environment, such as glare or noise, not from a temporary injury to the body."
+    },
+    {
+      "id": "option-4",
+      "text": "A permanent disability, because it affects daily tasks.",
+      "shortLabel": "Permanent disability",
+      "rationale": "The injury is expected to heal, so it is temporary rather than permanent, even though the barrier is real."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Temporary impairments, such as a broken wrist or an eye infection, can create the same barriers as permanent conditions. Flexible input methods—keyboard shortcuts, voice control, and switch access—help people with temporary, permanent, and situational limitations. A situational limitation comes from the environment, such as bright sunlight or a noisy room, rather than from the body.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Diverse Abilities and Barriers",
+      "url": "https://www.w3.org/WAI/people-use-web/abilities-barriers/"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["temporary-disability", "input-methods"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}
