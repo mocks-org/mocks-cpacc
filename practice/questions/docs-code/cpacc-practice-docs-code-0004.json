@@ -1,0 +1,50 @@
+{
+	"id": "cpacc-practice-docs-code-0004",
+	"module": "docs-code",
+	"type": "single",
+	"stem": "Which markup correctly associates the visible text 'Email address' with a text input?",
+	"options": [
+		{
+			"id": "option-1",
+			"text": "`<label for=\"email\">Email address</label><input id=\"email\" type=\"email\">`",
+			"shortLabel": "Label for and id",
+			"rationale": "The label's `for` value matches the input's `id`, so assistive technology announces the label as the input's name."
+		},
+		{
+			"id": "option-2",
+			"text": "`<div>Email address</div><input type=\"email\">`",
+			"shortLabel": "Div beside input",
+			"rationale": "A `<div>` is not a label, so the text is not associated with the input."
+		},
+		{
+			"id": "option-3",
+			"text": "`<input type=\"email\" placeholder=\"Email address\">`",
+			"shortLabel": "Placeholder only",
+			"rationale": "A placeholder disappears when the user types and is not a reliable accessible name."
+		},
+		{
+			"id": "option-4",
+			"text": "`<label>Email address</label><input type=\"email\">`",
+			"shortLabel": "Label without for",
+			"rationale": "The label does not wrap the input and has no `for` value, so the two elements are not associated."
+		}
+	],
+	"correctOptionId": "option-1",
+	"explanation": "A `<label>` is associated with a control when its `for` attribute matches the control's `id`, or when it wraps the control. A placeholder is not a label: it disappears when the user types and is not a reliable accessible name. A `<div>` is not a label at all.",
+	"references": [
+		{
+			"kind": "web",
+			"title": "W3C WAI — Labeling Controls",
+			"url": "https://www.w3.org/WAI/tutorials/forms/labels/"
+		}
+	],
+	"images": [],
+	"difficulty": 2,
+	"tags": ["forms", "html"],
+	"status": "published",
+	"provenance": "llm_assisted",
+	"author": "Oxypteros",
+	"reviewer": "Oxypteros",
+	"reviewedAt": "2026-11-27",
+	"sourceCheckedAt": "2026-11-27"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-docs-code-0007",
+  "module": "docs-code",
+  "type": "single",
+  "stem": "A form field has a visible error message below it. Which markup best ensures a screen reader announces the error when the field receives focus?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Use `aria-describedby` to associate the input with the error.",
+      "shortLabel": "Described by the error",
+      "rationale": "aria-describedby points to the error text, so the field's description includes the message when it receives focus."
+    },
+    {
+      "id": "option-2",
+      "text": "Use `title` on the input to repeat the visible error message.",
+      "shortLabel": "Title attribute",
+      "rationale": "A title may be exposed as a description, but it is not tied to the visible error and support is inconsistent."
+    },
+    {
+      "id": "option-3",
+      "text": "Use `placeholder` on the input to repeat the visible error message.",
+      "shortLabel": "Placeholder only",
+      "rationale": "A placeholder is not an error message and disappears once the user starts typing."
+    },
+    {
+      "id": "option-4",
+      "text": "Place the error text beside the input so everyone can see it.",
+      "shortLabel": "Nearby paragraph",
+      "rationale": "Visible text is not announced with the field unless it is programmatically associated with it."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "An error message must be programmatically associated with the field it describes. `aria-describedby` referencing the message's `id` adds it to the field's accessible description, so screen reader users hear it when they reach the field. A nearby paragraph, placeholder, or title does not create that association reliably.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Forms Tutorial: User Notifications",
+      "url": "https://www.w3.org/WAI/tutorials/forms/notifications/"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["forms", "errors", "aria"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

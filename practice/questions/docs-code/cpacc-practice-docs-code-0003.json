@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-docs-code-0003",
+  "module": "docs-code",
+  "type": "single",
+  "stem": "A developer marks a subsection with `<h4>` because the text should look smaller than the page's `<h2>` sections. What is the accessibility problem?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Heading levels should follow structure, not visual size.",
+      "shortLabel": "Structure over size",
+      "rationale": "Screen reader users navigate by heading level, so a level chosen for appearance misrepresents the page's structure."
+    },
+    {
+      "id": "option-2",
+      "text": "A page may use a single heading level throughout its content.",
+      "shortLabel": "One heading level",
+      "rationale": "Pages normally use several heading levels to express hierarchy; using one level throughout would remove that structure."
+    },
+    {
+      "id": "option-3",
+      "text": "`<h4>` is reserved for footers and sidebars.",
+      "shortLabel": "Reserved for footers",
+      "rationale": "Heading levels are not reserved for particular page regions; they describe the depth of the content."
+    },
+    {
+      "id": "option-4",
+      "text": "Headings should include visible numbers in their text.",
+      "shortLabel": "Numbered headings",
+      "rationale": "Visible numbers are optional; the heading level itself provides the structure for assistive technology."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Screen reader users navigate by heading levels, so a skipped level suggests missing structure. Choose the heading level that matches the content hierarchy and use CSS to change its visual size.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Headings",
+      "url": "https://www.w3.org/WAI/tutorials/page-structure/headings/"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["headings", "html"],
+  "status": "published",
+  "provenance": "llm_assisted",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

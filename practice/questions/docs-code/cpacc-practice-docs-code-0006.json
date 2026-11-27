@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-docs-code-0006",
+  "module": "docs-code",
+  "type": "single",
+  "stem": "A news site's footer lists several links, including one labeled 'Click here' that opens the annual accessibility report. Which replacement link text is best?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Accessibility report, 2026",
+      "shortLabel": "Named destination",
+      "rationale": "The link names its destination, so it makes sense when read alone or in a list of links."
+    },
+    {
+      "id": "option-2",
+      "text": "Click here accessibility information",
+      "shortLabel": "Accessibility information",
+      "rationale": "The text still does not say exactly what the link leads to."
+    },
+    {
+      "id": "option-3",
+      "text": "Read more about accessibility",
+      "shortLabel": "Read more",
+      "rationale": "Repeated vague phrases are indistinguishable when a screen reader lists the page's links."
+    },
+    {
+      "id": "option-4",
+      "text": "Download the file from this page",
+      "shortLabel": "Download the file",
+      "rationale": "It describes an action but not which document the link opens or what it contains."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Link text should describe the destination or purpose, especially when screen reader users list links out of context. 'Accessibility report, 2026' names the document, 'Click here', 'Read more', and 'Download the file' do not identify what exactly the link opens.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Understanding Success Criterion 2.4.4: Link Purpose (In Context)",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html"
+    }
+  ],
+  "images": [],
+  "difficulty": 1,
+  "tags": ["links", "wcag", "writing"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

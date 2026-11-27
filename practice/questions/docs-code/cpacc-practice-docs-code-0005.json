@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-docs-code-0005",
+  "module": "docs-code",
+  "type": "single",
+  "stem": "Under WCAG 2.2 Level AA, what is the minimum contrast ratio for normal-size body text?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "4.5:1",
+      "shortLabel": "4.5 to 1",
+      "rationale": "This is the Level AA minimum for normal text, large text may use a lower ratio."
+    },
+    {
+      "id": "option-2",
+      "text": "3:1",
+      "shortLabel": "3 to 1",
+      "rationale": "3:1 is the minimum for large text and for some non-text components, not for normal body text."
+    },
+    {
+      "id": "option-3",
+      "text": "7:1",
+      "shortLabel": "7 to 1",
+      "rationale": "7:1 is the enhanced Level AAA target for normal text, above the AA minimum."
+    },
+    {
+      "id": "option-4",
+      "text": "2.5:1",
+      "shortLabel": "2.5 to 1",
+      "rationale": "2.5:1 is below every WCAG text contrast threshold."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "WCAG 2.2 Level AA sets 4.5:1 for normal-size text and 3:1 for large text, commonly defined as about 18 point or 14 point bold. Level AAA raises the normal-text target to 7:1. The ratio compares the relative luminance of the text and its background.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Understanding Success Criterion 1.4.3: Contrast (Minimum)",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+    }
+  ],
+  "images": [],
+  "difficulty": 1,
+  "tags": ["contrast", "wcag", "visual-design"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

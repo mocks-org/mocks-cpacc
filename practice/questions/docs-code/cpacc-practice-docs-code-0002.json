@@ -1,0 +1,55 @@
+{
+  "id": "cpacc-practice-docs-code-0002",
+  "module": "docs-code",
+  "type": "single",
+  "stem": "A developer builds a menu trigger with a clickable `<div>` instead of a `<button>`. Which change most directly restores keyboard and assistive technology support?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Replace the `<div>` with a native `<button>` element.",
+      "shortLabel": "Use a native button",
+      "rationale": "A native button is focusable, exposes a button role, and responds to Enter and Space without extra scripting."
+    },
+    {
+      "id": "option-2",
+      "text": "Add `tabindex=\"0\"` so the `<div>` can receive keyboard focus.",
+      "shortLabel": "Add tabindex",
+      "rationale": "Tabindex makes the element focusable but does not give it a button role or make Enter and Space activate it."
+    },
+    {
+      "id": "option-3",
+      "text": "Add a `title` attribute so the control has an accessible name.",
+      "shortLabel": "Add a title",
+      "rationale": "A title may show a tooltip, but it is not a reliable accessible name and does not add keyboard behavior."
+    },
+    {
+      "id": "option-4",
+      "text": "Add a `mouseover` event so the menu opens on hover.",
+      "shortLabel": "Open on hover",
+      "rationale": "Hover-only interaction excludes keyboard and touch users and does not make the trigger operable."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "A native `<button>` is focusable, exposes a button role, and responds to Enter and Space by default. Adding `tabindex` alone makes an element focusable but does not give it a role or keyboard behavior; a `title` is not a reliable accessible name, and hover-only interaction excludes keyboard and touch users.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Developing for Web Accessibility",
+      "url": "https://www.w3.org/WAI/tips/developing/"
+    },
+    {
+      "kind": "web",
+      "title": "MDN — The Button element",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["keyboard-accessibility", "html"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

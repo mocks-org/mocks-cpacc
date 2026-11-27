@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-docs-code-0010",
+  "module": "docs-code",
+  "type": "single",
+  "stem": "A data table lists products in rows and months in columns. Which markup best associates each column header with its cells?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "`<th scope=\"col\">January</th>` for each month header",
+      "shortLabel": "Column header cell",
+      "rationale": "scope=col identifies the header cell as the header for its column, so screen readers can announce it with each cell."
+    },
+    {
+      "id": "option-2",
+      "text": "`<td><strong>January</strong></td>` for each month header",
+      "shortLabel": "Bold data cell",
+      "rationale": "A data cell styled as bold text is not a header, so its relationship to the column is missing."
+    },
+    {
+      "id": "option-3",
+      "text": "`<caption>Monthly sales</caption>` above the table",
+      "shortLabel": "Table caption",
+      "rationale": "A caption names the table but does not mark individual column headers."
+    },
+    {
+      "id": "option-4",
+      "text": "A CSS rule that makes the header row distinguishable",
+      "shortLabel": "Styled header row",
+      "rationale": "CSS styling is visual only, it carries no header semantics."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Table headers need markup, not just emphasis. A `<th>` with `scope=\"col\"` tells assistive technology which cells the header describes. A bold `<td>` is still a data cell, a `<caption>` names the table as a whole, and CSS styling does not create a header relationship.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Tables Tutorial",
+      "url": "https://www.w3.org/WAI/tutorials/tables/"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["tables", "html"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

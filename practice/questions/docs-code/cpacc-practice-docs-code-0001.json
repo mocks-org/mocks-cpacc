@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-docs-code-0001",
+  "module": "docs-code",
+  "type": "single",
+  "stem": "A decorative divider image carries no information. Which `alt` attribute is the best choice?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "`alt=\"\"`",
+      "shortLabel": "Empty alt",
+      "rationale": "An empty alt value tells assistive technology that the image is decorative and can be skipped."
+    },
+    {
+      "id": "option-2",
+      "text": "`alt=\"decorative divider\"`",
+      "shortLabel": "Decorative divider",
+      "rationale": "This describes the image but adds no useful information, so it creates unnecessary speech for screen reader users."
+    },
+    {
+      "id": "option-3",
+      "text": "`alt=\"image\"`",
+      "shortLabel": "Image",
+      "rationale": "A generic label does not convey the image's purpose and is noise when the image is purely decorative."
+    },
+    {
+      "id": "option-4",
+      "text": "Leave the `alt` attribute off the element.",
+      "shortLabel": "Omit alt",
+      "rationale": "When alt is missing, some screen readers announce the file name instead of skipping the image."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "An empty alt value (`alt=\"\"`) tells assistive technology that the image is decorative and can be skipped. If the alt attribute is omitted, some screen readers announce the file name. Text such as 'decorative divider' adds noise without adding meaning.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Decorative Images",
+      "url": "https://www.w3.org/WAI/tutorials/images/decorative/"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["images", "html"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-docs-code-0011",
+  "module": "docs-code",
+  "type": "single",
+  "stem": "A form marks required fields with a red asterisk only. What is the most accessible fix?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Add the word 'required' to each label and set the `required` attribute.",
+      "shortLabel": "Text and attribute",
+      "rationale": "A visible word plus the required attribute conveys the requirement in text and in code, not by color alone."
+    },
+    {
+      "id": "option-2",
+      "text": "Add a legend at the top explaining that red means required.",
+      "shortLabel": "Color legend",
+      "rationale": "A legend depends on readers noticing and remembering it, the field itself still relies on color."
+    },
+    {
+      "id": "option-3",
+      "text": "Add a placeholder that says 'required'.",
+      "shortLabel": "Required placeholder",
+      "rationale": "A placeholder disappears once the user types and is not a reliable label."
+    },
+    {
+      "id": "option-4",
+      "text": "Make the asterisk larger and brighter red.",
+      "shortLabel": "Size and stronger color",
+      "rationale": "A stronger color is still a color-only cue and does not help people who cannot see it."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "Required status should be available in text and in markup. Put 'required' in the label (or provide an equivalent instruction) and set the `required` attribute so browsers and assistive technology expose the state. A red asterisk, a legend, a placeholder, or a brighter color does not give every reader the same information.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI — Forms Tutorial: Form Instructions",
+      "url": "https://www.w3.org/WAI/tutorials/forms/instructions/"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["forms", "required", "wcag"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}

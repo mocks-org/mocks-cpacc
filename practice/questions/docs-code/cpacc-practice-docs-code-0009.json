@@ -1,0 +1,50 @@
+{
+  "id": "cpacc-practice-docs-code-0009",
+  "module": "docs-code",
+  "type": "single",
+  "stem": "A dialog's close control is a `<button>` containing only an inline SVG X icon. What is the best way to give the button an accessible name?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Add `aria-label=\"Close\"` to the button.",
+      "shortLabel": "Label the button",
+      "rationale": "aria-label gives the button a name that assistive technology can announce even though the visible content is an icon."
+    },
+    {
+      "id": "option-2",
+      "text": "Add `alt=\"Close\"` to the icon.",
+      "shortLabel": "Alt on the SVG",
+      "rationale": "alt applies to images, on an inline SVG icon it does not reliably name the button."
+    },
+    {
+      "id": "option-3",
+      "text": "Add `title=\"Close\"` to the button.",
+      "shortLabel": "Title attribute",
+      "rationale": "A title may show a tooltip, but it is not a reliable accessible name."
+    },
+    {
+      "id": "option-4",
+      "text": "Add `aria-describedby=\"Close\"` to the button.",
+      "shortLabel": "Described by close",
+      "rationale": "aria-describedby adds a description, not the name the control needs."
+    }
+  ],
+  "correctOptionId": "option-1",
+  "explanation": "An icon-only button still needs a name that assistive technology can announce and voice control can target. `aria-label` on the button supplies that name. `aria-describedby` adds a description rather than a name, a `title` is not reliably exposed, and `alt` belongs to images.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "W3C WAI-ARIA Authoring Practices — Providing Accessible Names and Descriptions",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["aria", "buttons", "names"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-27",
+  "sourceCheckedAt": "2026-11-27"
+}
