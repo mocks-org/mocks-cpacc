@@ -1,52 +1,52 @@
 {
-	"id": "cpacc-exam-accessibility-0035",
-	"module": "accessibility",
-	"type": "single",
-	"stem": "A transit ticketing station delivers instructions through animated on-screen graphics, synchronized spoken audio prompts, and raised tactile buttons. Which Universal Design principle does this demonstrate?",
-	"options": [
-		{
-			"id": "option-1",
-			"text": "Principle 6: Low Physical Effort.",
-			"shortLabel": "Low Physical Effort",
-			"rationale": "Low Physical Effort focuses on minimizing fatigue and operating forces, not sensory redundancy."
-		},
-		{
-			"id": "option-2",
-			"text": "Principle 4: Perceptible Information.",
-			"shortLabel": "Perceptible Information",
-			"rationale": "Principle 4 requires presenting essential information redundantly across different sensory modes (pictorial, verbal, and tactile)."
-		},
-		{
-			"id": "option-3",
-			"text": "Principle 7: Size and Space for Approach and Use.",
-			"shortLabel": "Size and Space for Approach and Use",
-			"rationale": "Principle 7 relates to physical space, clearance, and reach distances."
-		},
-		{
-			"id": "option-4",
-			"text": "Principle 2: Flexibility in Use.",
-			"shortLabel": "Flexibility in Use",
-			"rationale": "Flexibility in Use addresses user pace and handedness options rather than multi-sensory information presentation."
-		}
-	],
-	"correctOptionId": "option-2",
-	"explanation": "Principle 4 (Perceptible Information) requires that necessary information is communicated effectively to the user, regardless of ambient conditions or the user's sensory abilities. Presenting instructions simultaneously through visual graphics, spoken audio, and tactile surfaces is a clear example of redundant multi-modal design.",
-	"references": [
-		{
-			"kind": "publication",
-			"title": "The Universal Design File",
-			"author": "Molly Follette Story, James L. Mueller, and Ronald L. Mace",
-			"year": "1998",
-			"url": "https://files.eric.ed.gov/fulltext/ED460554.pdf"
-		}
-	],
-	"images": [],
-	"difficulty": 3,
-	"tags": ["universal-design", "perceptible-information"],
-	"status": "published",
-	"provenance": "authored",
-	"author": "Oxypteros",
-	"reviewer": "Oxypteros",
-	"reviewedAt": "2026-10-31",
-	"sourceCheckedAt": "2026-11-19"
+  "id": "cpacc-exam-accessibility-0035",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "A transit ticketing station delivers instructions through animated on-screen graphics, synchronized spoken audio prompts, and raised tactile buttons. Which Universal Design principle does this demonstrate?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "Principle 6: Low Physical Effort.",
+      "shortLabel": "Low Physical Effort",
+      "rationale": "Low Physical Effort focuses on minimizing fatigue and operating forces, not sensory redundancy."
+    },
+    {
+      "id": "option-2",
+      "text": "Principle 4: Perceptible Information.",
+      "shortLabel": "Perceptible Information",
+      "rationale": "Principle 4 requires presenting essential information redundantly across different sensory modes (pictorial, verbal, and tactile)."
+    },
+    {
+      "id": "option-3",
+      "text": "Principle 7: Size and Space for Approach and Use.",
+      "shortLabel": "Size and Space for Approach and Use",
+      "rationale": "Principle 7 relates to physical space, clearance, and reach distances."
+    },
+    {
+      "id": "option-4",
+      "text": "Principle 2: Flexibility in Use.",
+      "shortLabel": "Flexibility in Use",
+      "rationale": "Flexibility in Use addresses user pace and handedness options rather than multi-sensory information presentation."
+    }
+  ],
+  "correctOptionId": "option-2",
+  "explanation": "Principle 4 (Perceptible Information) requires that necessary information is communicated effectively to the user, regardless of ambient conditions or the user's sensory abilities. Presenting instructions simultaneously through visual graphics, spoken audio, and tactile surfaces is a clear example of redundant multi-modal design.",
+  "references": [
+    {
+      "kind": "publication",
+      "title": "The Universal Design File",
+      "author": "Molly Follette Story, James L. Mueller, and Ronald L. Mace",
+      "year": "1998",
+      "url": "https://files.eric.ed.gov/fulltext/ED460554.pdf"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["universal-design", "perceptible-information"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-28",
+  "sourceCheckedAt": "2026-11-28"
 }

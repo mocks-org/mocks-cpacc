@@ -1,50 +1,50 @@
 {
-	"id": "cpacc-exam-accessibility-0034",
-	"module": "accessibility",
-	"type": "single",
-	"stem": "Why does universal design of buildings include acoustic measures such as sound-absorbing ceiling and wall materials?",
-	"options": [
-		{
-			"id": "option-1",
-			"text": "It amplifies the speaker's voice so it reaches the back of a large room.",
-			"shortLabel": "Amplifies the speaker's voice",
-			"rationale": "Sound-absorbing materials reduce reflected sound; they do not amplify a speaker. Amplification is the job of a sound system."
-		},
-		{
-			"id": "option-2",
-			"text": "It blocks traffic noise from entering through the building's exterior walls.",
-			"shortLabel": "Blocks outside traffic noise",
-			"rationale": "Absorption reduces reverberation inside a room; blocking sound from outside requires sound insulation, a different property."
-		},
-		{
-			"id": "option-3",
-			"text": "It removes the need for assistive listening systems in auditoriums.",
-			"shortLabel": "Replaces assistive listening systems",
-			"rationale": "Better acoustics help, but hearing loops and other assistive listening systems remain necessary for many people with hearing loss."
-		},
-		{
-			"id": "option-4",
-			"text": "It reduces echo and background noise so hearing aid users can follow speech.",
-			"shortLabel": "Reduces echo so hearing aid users can follow speech",
-			"rationale": "Excessive reverberation blurs speech, and hearing aids amplify the competing sound as well as the speaker, so acoustic control makes speech easier to follow."
-		}
-	],
-	"correctOptionId": "option-4",
-	"explanation": "Hard surfaces in built environments create excessive sound reverberation and background chatter. For people who are hard of hearing or use hearing aids, echo smears speech sounds and makes speech harder to follow. Sound-absorbing materials reduce reverberation and background noise and create clearer listening environments.",
-	"references": [
-		{
-			"kind": "web",
-			"title": "Building for Everyone: A Universal Design Approach, Booklet 4: Internal Environment and Services",
-			"url": "https://universaldesign.ie/uploads/publications/4-Internal-Environment-and-Services_2024-09-23-155441_mmxc.pdf"
-		}
-	],
-	"images": [],
-	"difficulty": 3,
-	"tags": ["built-environment", "acoustics"],
-	"status": "published",
-	"provenance": "authored",
-	"author": "Oxypteros",
-	"reviewer": "Oxypteros",
-	"reviewedAt": "2026-10-31",
-	"sourceCheckedAt": "2026-11-19"
+  "id": "cpacc-exam-accessibility-0034",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "Why does universal design of buildings include acoustic measures such as sound-absorbing ceiling and wall materials?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "It amplifies the speaker's voice so it reaches the back of a large room.",
+      "shortLabel": "Amplifies the speaker's voice",
+      "rationale": "Sound-absorbing materials reduce reflected sound, they do not amplify a speaker. Amplification is the job of a sound system."
+    },
+    {
+      "id": "option-2",
+      "text": "It blocks traffic noise from entering through the building's exterior walls.",
+      "shortLabel": "Blocks outside traffic noise",
+      "rationale": "Absorption reduces reverberation inside a room. Blocking sound from outside requires sound insulation, a different property."
+    },
+    {
+      "id": "option-3",
+      "text": "It removes the need for assistive listening systems in auditoriums.",
+      "shortLabel": "Replaces assistive listening systems",
+      "rationale": "Better acoustics help, but hearing loops and other assistive listening systems remain necessary for many people with hearing loss."
+    },
+    {
+      "id": "option-4",
+      "text": "It reduces echo and background noise so hearing aid users can follow speech.",
+      "shortLabel": "Reduces echo so hearing aid users can follow speech",
+      "rationale": "Excessive reverberation blurs speech, and hearing aids amplify the competing sound as well as the speaker, so acoustic control makes speech easier to follow."
+    }
+  ],
+  "correctOptionId": "option-4",
+  "explanation": "Hard surfaces in built environments create excessive sound reverberation and background chatter. For people who are hard of hearing or use hearing aids, echo smears speech sounds and makes speech harder to follow. Sound-absorbing materials reduce reverberation and background noise and create clearer listening environments.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "Building for Everyone: A Universal Design Approach, Booklet 4: Internal Environment and Services",
+      "url": "https://universaldesign.ie/uploads/publications/4-Internal-Environment-and-Services_2024-09-23-155441_mmxc.pdf"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["built-environment", "acoustics"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-28",
+  "sourceCheckedAt": "2026-11-28"
 }

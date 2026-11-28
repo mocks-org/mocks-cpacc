@@ -1,50 +1,50 @@
 {
-	"id": "cpacc-exam-accessibility-0026",
-	"module": "accessibility",
-	"type": "single",
-	"stem": "A keyboard user navigates into an interactive calendar widget but cannot move focus out of it using standard keyboard navigation keys. What accessibility failure does this illustrate?",
-	"options": [
-		{
-			"id": "option-1",
-			"text": "A missing bypass mechanism.",
-			"shortLabel": "Missing bypass mechanism",
-			"rationale": "A bypass mechanism lets users skip blocks of repeated content; it does not make a widget release keyboard focus."
-		},
-		{
-			"id": "option-2",
-			"text": "A keyboard shortcut conflict.",
-			"shortLabel": "Keyboard shortcut conflict",
-			"rationale": "A shortcut conflict occurs when a single-key shortcut blocks a character the user needs to type, not when focus cannot leave a component."
-		},
-		{
-			"id": "option-3",
-			"text": "A pointer-dependent control.",
-			"shortLabel": "Pointer-dependent control",
-			"rationale": "A control that needs a pointing device cannot be operated from the keyboard, whereas this widget accepts keyboard input and holds focus."
-		},
-		{
-			"id": "option-4",
-			"text": "A keyboard trap.",
-			"shortLabel": "Keyboard trap",
-			"rationale": "A keyboard trap occurs when keyboard focus enters an interface element but cannot exit using standard keys (such as Tab or Escape)."
-		}
-	],
-	"correctOptionId": "option-4",
-	"explanation": "A keyboard trap is a critical accessibility barrier where a keyboard user can navigate into an interactive element (such as a modal window, popup, or calendar picker) but cannot navigate away using standard keystrokes. WCAG Success Criterion 2.1.2 explicitly prohibits keyboard traps.",
-	"references": [
-		{
-			"kind": "web",
-			"title": "Web Content Accessibility Guidelines (WCAG) 2.1: Success Criterion 2.1.2 No Keyboard Trap",
-			"url": "https://www.w3.org/TR/WCAG21/#no-keyboard-trap"
-		}
-	],
-	"images": [],
-	"difficulty": 3,
-	"tags": ["wcag", "keyboard-accessibility"],
-	"status": "published",
-	"provenance": "authored",
-	"author": "Oxypteros",
-	"reviewer": "Oxypteros",
-	"reviewedAt": "2026-10-31",
-	"sourceCheckedAt": "2026-11-19"
+  "id": "cpacc-exam-accessibility-0026",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "A keyboard user navigates into an interactive calendar widget but cannot move focus out of it using standard keyboard navigation keys. What accessibility failure does this illustrate?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "A missing bypass mechanism.",
+      "shortLabel": "Missing bypass mechanism",
+      "rationale": "A bypass mechanism lets users skip blocks of repeated content, it does not make a widget release keyboard focus."
+    },
+    {
+      "id": "option-2",
+      "text": "A keyboard shortcut conflict.",
+      "shortLabel": "Keyboard shortcut conflict",
+      "rationale": "A shortcut conflict occurs when a single-key shortcut blocks a character the user needs to type, not when focus cannot leave a component."
+    },
+    {
+      "id": "option-3",
+      "text": "A pointer-dependent control.",
+      "shortLabel": "Pointer-dependent control",
+      "rationale": "A control that needs a pointing device cannot be operated from the keyboard, whereas this widget accepts keyboard input and holds focus."
+    },
+    {
+      "id": "option-4",
+      "text": "A keyboard trap.",
+      "shortLabel": "Keyboard trap",
+      "rationale": "A keyboard trap occurs when keyboard focus enters an interface element but cannot exit using standard keys (such as Tab or Escape)."
+    }
+  ],
+  "correctOptionId": "option-4",
+  "explanation": "A keyboard trap is a critical accessibility barrier where a keyboard user can navigate into an interactive element (such as a modal window, popup, or calendar picker) but cannot navigate away using standard keystrokes. WCAG Success Criterion 2.1.2 explicitly prohibits keyboard traps.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.1: Success Criterion 2.1.2 No Keyboard Trap",
+      "url": "https://www.w3.org/TR/WCAG21/#no-keyboard-trap"
+    }
+  ],
+  "images": [],
+  "difficulty": 3,
+  "tags": ["wcag", "keyboard-accessibility"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-28",
+  "sourceCheckedAt": "2026-11-28"
 }

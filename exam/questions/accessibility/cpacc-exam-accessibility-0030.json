@@ -1,50 +1,50 @@
 {
-	"id": "cpacc-exam-accessibility-0030",
-	"module": "accessibility",
-	"type": "single",
-	"stem": "Why must web developers declare the default human language of a webpage on the html element?",
-	"options": [
-		{
-			"id": "option-1",
-			"text": "So screen readers can detect where the text switches to another language.",
-			"shortLabel": "Detects where the text switches language",
-			"rationale": "The page declaration sets only the default language; marking a language switch mid-page requires a language declaration on those passages."
-		},
-		{
-			"id": "option-2",
-			"text": "So the browser applies the correct character encoding when rendering the text.",
-			"shortLabel": "Applies the correct character encoding",
-			"rationale": "Character encoding is declared separately, for example with a charset meta declaration; the language tag does not set it."
-		},
-		{
-			"id": "option-3",
-			"text": "So screen readers can apply the correct pronunciation rules for that language.",
-			"shortLabel": "Applies the correct pronunciation rules",
-			"rationale": "Screen readers use the declared language to choose pronunciation rules and voice settings suited to that language."
-		},
-		{
-			"id": "option-4",
-			"text": "So the browser can lay out the page right-to-left for languages written that way.",
-			"shortLabel": "Lays out the page right-to-left",
-			"rationale": "Text direction is set with the dir attribute; the language tag does not change the layout direction."
-		}
-	],
-	"correctOptionId": "option-3",
-	"explanation": "WCAG Success Criterion 3.1.1 (Language of Page) requires that the default human language of each page can be programmatically determined. Declaring it with the lang attribute on the html element (such as lang=\"en\" or lang=\"es\") lets assistive technology determine the page language, so screen readers can load the correct pronunciation rules instead of applying the wrong phonetic rules.",
-	"references": [
-		{
-			"kind": "web",
-			"title": "WCAG 2.1 Understanding Docs: Understanding SC 3.1.1",
-			"url": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html"
-		}
-	],
-	"images": [],
-	"difficulty": 2,
-	"tags": ["wcag", "screen-readers"],
-	"status": "published",
-	"provenance": "authored",
-	"author": "Oxypteros",
-	"reviewer": "Oxypteros",
-	"reviewedAt": "2026-10-31",
-	"sourceCheckedAt": "2026-11-19"
+  "id": "cpacc-exam-accessibility-0030",
+  "module": "accessibility",
+  "type": "single",
+  "stem": "Why must web developers declare the default human language of a webpage on the html element?",
+  "options": [
+    {
+      "id": "option-1",
+      "text": "So screen readers can detect where the text switches to another language.",
+      "shortLabel": "Detects where the text switches language",
+      "rationale": "The page declaration sets only the default language, marking a language switch mid-page requires a language declaration on those passages."
+    },
+    {
+      "id": "option-2",
+      "text": "So the browser applies the correct character encoding when rendering the text.",
+      "shortLabel": "Applies the correct character encoding",
+      "rationale": "Character encoding is declared separately, for example with a charset meta declaration."
+    },
+    {
+      "id": "option-3",
+      "text": "So screen readers can apply the correct pronunciation rules for that language.",
+      "shortLabel": "Applies the correct pronunciation rules",
+      "rationale": "Screen readers use the declared language to choose pronunciation rules and voice settings suited to that language."
+    },
+    {
+      "id": "option-4",
+      "text": "So the browser can lay out the page right-to-left for languages written that way.",
+      "shortLabel": "Lays out the page right-to-left",
+      "rationale": "Text direction is set with the dir attribute, the language tag does not change the layout direction."
+    }
+  ],
+  "correctOptionId": "option-3",
+  "explanation": "WCAG Success Criterion 3.1.1 (Language of Page) requires that the default human language of each page can be programmatically determined. Declaring it with the lang attribute on the html element (such as lang=\"en\" or lang=\"es\") lets assistive technology determine the page language, so screen readers can load the correct pronunciation rules instead of applying the wrong phonetic rules.",
+  "references": [
+    {
+      "kind": "web",
+      "title": "WCAG 2.1 Understanding Docs: Understanding SC 3.1.1",
+      "url": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html"
+    }
+  ],
+  "images": [],
+  "difficulty": 2,
+  "tags": ["wcag", "screen-readers"],
+  "status": "published",
+  "provenance": "authored",
+  "author": "Oxypteros",
+  "reviewer": "Oxypteros",
+  "reviewedAt": "2026-11-28",
+  "sourceCheckedAt": "2026-11-28"
 }
